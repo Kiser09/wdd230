@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento:wght@700&display=swap');
-
 #content{
     max-width: 960px;
     margin: 0 auto;
 }
 
 body{
-    font-family:"Fanwood Text", 'Times New Roman', Times, serif;
+    font-family:"Source Serif Pro", 'Times New Roman', serif;
 }
 
 h1, h2{
-    font-family:"Quattrocento", 'Times New Roman', serif;
+    font-family:"Bebas Neue", Arial, sans-serif;
 }
 
 .portal-pg-header{
@@ -22,7 +20,7 @@ h1, h2{
     background-color: #174F28;
     border-radius: 20px;
     border: 5px double;
-    font-family:"Quattrocento", 'Times New Roman', serif;
+    font-family:"Bebas Neue", Arial, sans-serif;
     align-items: center;
 }
 
