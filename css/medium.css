@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em){
+    #content{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .portal-pg-header h1{
+      font-size: 3.5rem;
+  }
+
+  .project-header{
+      font-size: 2rem;
+  }
+
+  .portrait img{
+    float:left;
+    border: 3px solid black;
+}
+}
