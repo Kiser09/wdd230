@@ -11,6 +11,10 @@ h1, h2{
     font-family:"Bebas Neue", Arial, sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 .portal-pg-header{
     display: grid;
     grid-template-columns: repeat(10,1fr);
