@@ -1,5 +1,9 @@
 @media only screen and (min-width: 60em){
-    .design-princple-grid{
+    main{
         grid-template-columns: 1fr 1fr 1fr;
+    }  
+
+    .proximity{
+        grid-column:auto;
     }
 }
