@@ -26,7 +26,7 @@ a{
     background-color: #174F28;
     margin-bottom:5px;
     border-radius: 20px;
-    border: 5px double;
+    border: 5px solid black;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -65,7 +65,7 @@ footer{
     color:#82A3A1;
     background-color: #174F28;
     border-radius: 20px;
-    border: 5px double;
+    border: 5px solid black;
 }
 
 footer p{
