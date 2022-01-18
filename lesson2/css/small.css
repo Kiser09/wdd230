@@ -61,6 +61,7 @@ hr .divider{
 footer{
     display: grid;
     grid-template-columns: 1fr;
+    color: #82A3A1;
     background-color: #174F28;
     border-radius: 20px;
     border: 5px solid black;
