@@ -22,7 +22,7 @@ a{
 }
 
 .design-header{
-    color: #82A3A1;
+    color: white;
     background-color: #174F28;
     margin-bottom:5px;
     border-radius: 20px;
@@ -46,7 +46,7 @@ section{
 
 section header{
     width: 100%;
-    color: #82A3A1;
+    color: white;
     background-color: #174F28;
     display: grid;
     grid-template-columns: 1fr;
@@ -61,7 +61,7 @@ hr .divider{
 footer{
     display: grid;
     grid-template-columns: 1fr;
-    color: #82A3A1;
+    color: white;
     background-color: #174F28;
     border-radius: 20px;
     border: 5px solid black;
