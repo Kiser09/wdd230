@@ -74,6 +74,6 @@ footer p{
     justify-self:center;
 }
 
-#footer-info{
-    display:block;
+#lastmod{
+    color:yellow;
 }
