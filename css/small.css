@@ -41,8 +41,7 @@ main{
 }
 
 .project-header{
-    margin-block-start: .50em;
-    margin-block-end: .50em;
+    margin-left: 20px;
     font-size:1rem;
     border-bottom: 3px solid black;
 }
