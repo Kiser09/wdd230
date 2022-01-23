@@ -1,0 +1,42 @@
+#content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    background-image: url(/lesson3/images/snowflakebackground.jpg);
+    border-radius: 20px;
+    border: 5px double;
+}
+
+header h1, header h2{
+    justify-self: center;
+}
+
+nav ul{
+
+}
+
+Section{
+    display: block;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-image: url(/lesson3/images/snowflakebackground.jpg);
+    border-radius: 20px;
+    border: 5px double;
+}
+
+footer p{
+    justify-self: center;
+}
+
+#lastmod{
+    color:yellow;
+}
+
+/************************************************ Target Audience Page *******************************************************/
+
