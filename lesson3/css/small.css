@@ -3,6 +3,15 @@
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, th, nav {
+    font-family: "Lobster", "Lucida Handwriting", cursive;
+}
+
+body{
+    font-family: "EB Garamond", "Garamond", serif;
+    font-size: 18px;
+}
+
 header{
     display: grid;
     background-image: url(/lesson3/images/snowflakebackground.jpg);
@@ -18,7 +27,6 @@ header h1, header h2{
 nav{
     display: block;
     background-color: #228B22;
-    color: #FFD700;
 }
 
 nav ul{
@@ -32,6 +40,7 @@ nav a {
     display: block;
     font-weight: bolder;
     text-align: center;
+    color: #FFD700;
 }
 
 Section{
@@ -49,11 +58,18 @@ footer{
 footer p{
     justify-self: center;
     color: red;
+    font-weight: bolder;
 }
 
 #lastmod{
     color: red;
+    font-weight: bolder;
 }
 
-/************************************************ Target Audience Page *******************************************************/
+/************************************************ Index Page *******************************************************/
 
+/************************************************ Target-Audience Page *******************************************************/
+
+/************************************************ Color-Scheme Page *******************************************************/
+
+/************************************************ Typography Page *******************************************************/
