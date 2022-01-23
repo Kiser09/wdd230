@@ -12,6 +12,12 @@ body{
     font-size: 18px;
 }
 
+main{
+    background-color: #F5F5DC;
+    border: 5px solid black;
+    margin:0 auto;
+}
+
 header{
     display: grid;
     background-image: url(/lesson3/images/snowflakebackground.jpg);
@@ -25,7 +31,6 @@ header h1, header h2{
 }
 
 nav{
-    display: block;
     background-color: #228B22;
 }
 
@@ -43,8 +48,14 @@ nav a {
     color: #FFD700;
 }
 
-Section{
+nav a:hover {
+    background-color: blue;
+    color: #FFD700;
+  }
+
+section{
     display: block;
+    margin-left: 10px;
 }
 
 footer{
@@ -67,9 +78,19 @@ footer p{
 }
 
 /************************************************ Index Page *******************************************************/
+picture img{
+    margin-left: 15px;
+}
 
 /************************************************ Target-Audience Page *******************************************************/
 
-/************************************************ Color-Scheme Page *******************************************************/
 
+
+/************************************************ Color-Scheme Page *******************************************************/
+.color, .color-header{
+    margin-left: 15px;
+}
 /************************************************ Typography Page *******************************************************/
+.typography{
+    margin-left: 15px;
+}
