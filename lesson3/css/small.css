@@ -7,7 +7,7 @@ h1, h2, h3, h4, th, nav {
     font-family: "Lobster", "Lucida Handwriting", cursive;
 }
 
-body{
+body, .para-font{
     font-family: "EB Garamond", "Garamond", serif;
     font-size: 18px;
 }
@@ -31,11 +31,18 @@ header h1, header h2{
 }
 
 nav{
-    background-color: #228B22;
+    margin: 0 auto;
 }
 
 nav ul{
     list-style: none;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0;
+    background-color: #228B22;
 }
 
 
@@ -46,6 +53,9 @@ nav a {
     font-weight: bolder;
     text-align: center;
     color: #FFD700;
+    height: 30px;
+    border: 3px solid black;
+    overflow: hidden;
 }
 
 nav a:hover {
@@ -56,6 +66,16 @@ nav a:hover {
 section{
     display: block;
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 3px;
 }
 
 footer{
@@ -87,10 +107,39 @@ picture img{
 
 
 /************************************************ Color-Scheme Page *******************************************************/
-.color, .color-header{
+.color-header{
     margin-left: 15px;
+}
+
+.colors{
+    width:90%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    justify-self: center;
+}
+
+.cyan{
+    color: #00B7EB;
+    font-weight: bold;
+}
+
+.green{
+    color:#FFD700;
+    background-color: #228B22;
+    font-weight: bold;
+}
+
+.red{
+    color:red;
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
 }
 /************************************************ Typography Page *******************************************************/
-.typography{
+.typo{
     margin-left: 15px;
 }
+
