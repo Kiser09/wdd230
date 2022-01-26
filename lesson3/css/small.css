@@ -81,7 +81,7 @@ table{
 footer{
     display: grid;
     grid-template-rows: 1fr;
-    background-image: url('/lesson3/images/snowflakebackground.JPG');
+    background-image: url('/lesson3/images/flakebackgroundimage.png');
     border-radius: 20px;
     border: 5px double red;
 }
