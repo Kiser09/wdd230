@@ -20,7 +20,7 @@ main{
 
 header{
     display: grid;
-    background-image: url("/lesson3/images/snowflakebackground.jpg");
+    background-image: url("/lesson3/images/santalogo.jpg");
     border-radius: 20px;
     border: 5px double red;
     color: red;
