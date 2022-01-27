@@ -20,7 +20,7 @@ main{
 
 header{
     display: grid;
-    background-image: url('/lesson3/images/background.png');
+    background-image: url('../lesson3/images/background.png');
     border-radius: 20px;
     border: 5px double red;
     color: red;
@@ -81,7 +81,7 @@ table{
 footer{
     display: grid;
     grid-template-rows: 1fr;
-    background-image: url('/lesson3/images/background2.jpg');
+    background-image: url('../lesson3/images/background2.jpg');
     border-radius: 20px;
     border: 5px double red;
 }
