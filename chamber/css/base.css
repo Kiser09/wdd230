@@ -92,10 +92,31 @@ header p{
 
 main{
     display: block;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #F5F5DC;
-    border: 2px solid black;
     margin:0 auto;
+    padding-top: .5rem;
+}
+
+article{
+    background-color: #F5F5DC;
+    border: 1px solid black;
+    margin-bottom: .5rem;
+}
+
+article h3, .spotlight section h4{
+    padding-left: .3rem;
+}
+
+.spotlight{
+    display: block;
+    padding: .2rem;
+}
+
+.spotlight section{
+    border: 1px solid black;
+}
+
+.spotlight section:nth-child(3){
+    display: none;
 }
 
 footer{
