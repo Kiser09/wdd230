@@ -25,20 +25,13 @@
           padding: .5rem 1rem;
       }
   
-      footer{
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-      }
-  
-      .contact-map{
-          grid-column: 4;
-      }
-  
       .social{
           grid-column: 4;
           justify-self: end;
           padding-right: .5rem;
       }
 
-    
+      footer p{
+          text-align: left;
+      }
 }
