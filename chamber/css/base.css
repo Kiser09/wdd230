@@ -1,5 +1,5 @@
 body{
-    font-family: font-family: "EB Garamond", "Garamond", serif;;
+    font-family:"EB Garamond", "Garamond", serif;;
 }
 
 h1, h2, h3, h4, th, nav, footer p{
@@ -7,9 +7,11 @@ h1, h2, h3, h4, th, nav, footer p{
 }
 
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-image: url('../images/background2.jpg');
-    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 nav button{
@@ -21,7 +23,7 @@ nav button{
 }
 
 nav{
-    background-image: url('../images/background2.jpg');
+    background-color: transparent;
 }
 
 nav ul{
@@ -36,9 +38,9 @@ nav ul.open{display: block;}
 
 nav ul li a{
     display: block;
-    padding: .8rem 2vw;
+    padding: .8rem;
     text-decoration: none;
-    color: #333;
+    color: darkblue;
     border-top: 1px solid rgba(0,0,0,.5);
 }
 
@@ -48,7 +50,7 @@ nav ul li a:hover{
 
 nav ul li.active a{
     background-color: rgba(0,0,0,.2);
-    color: white;
+    color: darkred;
 }
 
 #menubtn span:nth-child(1){display: block;}
@@ -57,19 +59,48 @@ nav ul li.active a{
 #menubtn.open span:nth-child(1){display: none;}
 #menubtn.open span:nth-child(2){display: block;}
 
+.logo{
+    padding: .8rem;
+}
+
 .logo img{
-    padding: .3rem;
     border-radius: 15px;
     max-width: 100%;
     border: 1px solid rgba(0,0,0,.3);
 }
 
 .today{
-
+    grid-row: 2;
 }
 
 main{
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F5F5DC;
     border: 2px solid black;
     margin:0 auto;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url('../images/background2.jpg');
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-map{
+    grid-column: 4;
+}
+
+footer p{
+    grid-row:2;
+    grid-column: 1/6;
+    justify-self: center;
+    border-top: 2px solid rgba(0,0,0,.5);
 }
