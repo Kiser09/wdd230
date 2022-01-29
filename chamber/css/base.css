@@ -95,6 +95,7 @@ header p{
     grid-column: 1/5;
     justify-self: center;
     align-self: center;
+    color: darkblue;
 }
 
 main{
