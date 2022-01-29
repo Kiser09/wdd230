@@ -24,9 +24,16 @@ header{
     border: 1px solid rgba(0,0,0,.3);
 }
 
+header h3{
+    grid-column: 2;
+    grid-row: 1;
+    color:darkblue;
+}
+
 nav{
     background-color: transparent;
     grid-column: 4;
+    grid-row: 1;
     padding-top: 2.5rem;
     justify-self: end;
 }
@@ -84,7 +91,7 @@ nav ul.open{
 }
 
 header p{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1/5;
     justify-self: center;
     align-self: center;
@@ -104,6 +111,7 @@ article{
 
 article h3, .spotlight section h4{
     padding-left: .3rem;
+    color: darkred;
 }
 
 .spotlight{
@@ -125,6 +133,7 @@ footer{
     background-image: url('../images/background2.jpg');
     border-radius: 20px;
     border: 1px solid black;
+    color: darkblue;
 }
 
 footer ul{
