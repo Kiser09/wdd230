@@ -25,12 +25,13 @@
     <div id="content"><!--content class used for max width of page in CSS-->
         <header>
 <!--Logo pictuer with home navigation height 150px-->
-            <picture>
+            <picture class="logo">
                 <a href="index.html"><img src="images/headersclogo.jpg" alt="SC logo"></a> 
             </picture>
 <!--Navigation: active class displays the active page. See base.css page for use-->
             <nav>
-                <ul>
+                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="largenav">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#">Discover</a></li>
                     <li><a href="#">Directory</a></li>
@@ -44,7 +45,7 @@
                 <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
             </div>
 <!--Date and year for header-->
-            <p id="currentdate"></p>
+            <p id="currentdate" class="today"></p>
         </header>
         <main>
             <article>

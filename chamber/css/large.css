@@ -1,4 +1,9 @@
 /*60em is abour 960px at 16px font*/
 @media only screen and (min-width: 60em){
+    #content{
+        max-width: 940px;
+        margin: 0 auto;
+    }
 
+    
 }

@@ -1,4 +1,17 @@
 /*35em is about 560px at 16px font*/
 @media only screen and (min-width: 35em){
+    nav button{display: none}
 
+    nav ul#largenav{
+        display: flex;
+        margin-left: 2em;
+        border-left: 1px solid rgba(0,0,0,.3);
+    }
+
+    nav ul li{flex: 1 1 100%;}
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,.3);
+    }
 }
