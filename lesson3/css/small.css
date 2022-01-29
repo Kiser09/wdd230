@@ -23,7 +23,7 @@ header{
     background-image: url('../images/background.png');
     border-radius: 20px;
     border: 5px double red;
-    color: red;
+    color: darkblue;
 }
 
 header h1, header h2{
@@ -42,7 +42,7 @@ nav ul{
     margin-top: 3px;
     margin-bottom: 3px;
     padding: 0;
-    background-color: blue;
+    background-color: #95e8ff;
 }
 
 
@@ -52,7 +52,7 @@ nav a {
     display: block;
     font-weight: bolder;
     text-align: center;
-    color: #FFD700;
+    color: darkred;
     height: 30px;
     border: 3px solid black;
     overflow: hidden;
@@ -60,7 +60,7 @@ nav a {
 
 nav a:hover {
     background-color: #228B22;
-    color: #FFD700;
+    color: darkblue;
   }
 
 section{
@@ -88,12 +88,12 @@ footer{
 
 footer p{
     justify-self: center;
-    color: red;
+    color: darkblue;
     font-weight: bolder;
 }
 
 #lastmod{
-    color: red;
+    color: darkblue;
     font-weight: bolder;
 }
 
@@ -119,23 +119,23 @@ picture img{
 }
 
 .cyan{
-    color: #00B7EB;
+    background-color: #95e8ff;
     font-weight: bold;
 }
 
-.green{
-    color:#FFD700;
-    background-color: #228B22;
+.navbar{
+    color:darkred;
+    background-color: #95e8ff;
     font-weight: bold;
 }
 
 .red{
-    color:red;
+    color:Darkred;
     font-weight: bold;
 }
 
 .blue{
-    color: blue;
+    color: darkblue;
     font-weight: bold;
 }
 /************************************************ Typography Page *******************************************************/
