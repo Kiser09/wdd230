@@ -1,8 +1,9 @@
 /*35em is about 560px at 16px font*/
 @media only screen and (min-width: 35em){
+  
     nav button{display: none}
 
-    nav ul#largenav{
+    nav ul#primarynav{
         display: flex;
         margin-left: 2em;
         border-left: 1px solid rgba(0,0,0,.3);
@@ -13,5 +14,20 @@
     nav ul li a{
         border: none;
         border-right: 1px solid rgba(0,0,0,.3);
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .contact-map{
+        grid-column: 4;
+    }
+
+    footer p{
+        grid-row:2;
+        grid-column: 1/6;
+        justify-self: center;
     }
 }

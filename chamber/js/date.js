@@ -1,6 +1,6 @@
-const x = new Date();
+const d = new Date();
 const time = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'};
-document.getElementById('currentdate').innerHTML = x.toLocaleString('en-us', time)
+document.getElementById('currentdate').innerHTML = d.toLocaleString('en-us', time)
 
 /*Date last modified JavaScript*/
 const lastmod = document.querySelector("#lastmod");

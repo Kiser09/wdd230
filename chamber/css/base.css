@@ -7,57 +7,12 @@ h1, h2, h3, h4, th, nav, footer p{
 }
 
 header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     background-image: url('../images/background2.jpg');
     border: 1px solid black;
     border-radius: 20px;
 }
-
-nav button{
-    margin: .2rem 2vw;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
-}
-
-nav{
-    background-color: transparent;
-}
-
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    padding-left: .2rem;
-    margin: 0;
-    display: none;
-}
-
-nav ul.open{display: block;}
-
-nav ul li a{
-    display: block;
-    padding: .8rem;
-    text-decoration: none;
-    color: darkblue;
-    border-top: 1px solid rgba(0,0,0,.5);
-}
-
-nav ul li a:hover{
-    background: rgba(0,0,0,.3)
-}
-
-nav ul li.active a{
-    background-color: rgba(0,0,0,.2);
-    color: darkred;
-}
-
-#menubtn span:nth-child(1){display: block;}
-#menubtn span:nth-child(2){display: none;}
-
-#menubtn.open span:nth-child(1){display: none;}
-#menubtn.open span:nth-child(2){display: block;}
 
 .logo{
     padding: .8rem;
@@ -69,8 +24,57 @@ nav ul li.active a{
     border: 1px solid rgba(0,0,0,.3);
 }
 
-.today{
-    grid-row: 2;
+nav{
+    background-color: transparent;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: darkblue;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,.2);
+    color: darkred;
+}
+
+nav ul li a:hover {
+    background-color: rgba(236, 225, 65, 0.2);
+}
+
+nav ul{
+    display:none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+#menubtn span:nth-child(1) {display: block;}
+#menubtn span:nth-child(2) {display: none;}
+
+#menubtn.open span:nth-child(1) {display: none;}
+#menubtn.open span:nth-child(2) {display: block;}
+
+.social{
+    padding-top: 1.5rem;
 }
 
 main{
@@ -82,8 +86,7 @@ main{
 }
 
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:block;
     background-image: url('../images/background2.jpg');
     border-radius: 20px;
     border: 1px solid black;
@@ -94,13 +97,6 @@ footer ul{
     padding: 0;
 }
 
-.contact-map{
-    grid-column: 4;
-}
-
 footer p{
-    grid-row:2;
-    grid-column: 1/6;
-    justify-self: center;
     border-top: 2px solid rgba(0,0,0,.5);
 }
