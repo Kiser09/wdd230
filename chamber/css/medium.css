@@ -41,6 +41,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: left;
+        margin-top: 0;
     }
 
     footer p{
