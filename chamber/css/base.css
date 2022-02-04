@@ -35,7 +35,7 @@ nav{
     grid-column: 4;
     grid-row: 1;
     padding-top: 2.5rem;
-    justify-self: end;
+    justify-self: start;
 }
 
 nav button{
