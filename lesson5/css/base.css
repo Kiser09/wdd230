@@ -63,6 +63,11 @@ li {
 	margin-bottom: 0.5rem;
 }
 
+li button{
+	color: red;
+	font-weight: bold;
+}
+
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
