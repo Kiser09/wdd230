@@ -104,16 +104,20 @@ main{
     padding-top: .5rem;
 }
 
-article{
+article, section{
     background-color: #F5F5DC;
     border: 1px solid black;
     margin-bottom: .5rem;
 }
 
-article h3, .spotlight section h4{
+article h3, .spotlight section h4, section h3{
     padding-left: .3rem;
     color: darkred;
 }
+
+/* Beginning of weather app css*/
+
+/* End of weather app*/
 
 .spotlight{
     display: block;
