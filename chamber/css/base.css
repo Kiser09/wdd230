@@ -119,10 +119,9 @@ article h3, .spotlight section h4, section h3{
 
 /* Event beginning */
 
-.event{}
-
-.meeting{
+#meeting{
     display:none;
+    text-align: center;
 }
 
 /* Beginning of hero/call to action */
@@ -170,6 +169,21 @@ article h3, .spotlight section h4, section h3{
 
 .spotlight section:nth-child(3){
     display: none;
+}
+
+.spotlight section img{
+    margin: 3px;
+    margin-left: 3.2rem; 
+}
+
+.spotlight p{
+    text-align: center;
+}
+
+.solid{
+    border-top: 3px solid rgba(0,0,0,.5);
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /* Join CSS*/
