@@ -25,7 +25,13 @@
           padding: .5rem 1rem;
       }
 
-      article{
+      .social{
+        grid-column: 4;
+        justify-self: end;
+        padding-right: .5rem;
+    }
+
+      article, section{
           margin: 0;
       }
 
@@ -39,10 +45,15 @@
           grid-column: 1;
       }
 
+/*Join section CSS*/
+
       .join{
           grid-row: 3;
           grid-column: 1;
       }
+
+
+/* Hero section editing */      
 
       .hero{
         grid-column: 2/4;
@@ -60,6 +71,7 @@
           grid-row: span 3;
       }
 
+/* Spotlight Section CSS */
       .spotlight section:nth-child(1){
           grid-row: 1;
       }
@@ -72,12 +84,8 @@
           display: block;
           grid-row: 3;
       }
-  
-      .social{
-          grid-column: 4;
-          justify-self: end;
-          padding-right: .5rem;
-      }
+/* Spotlight end */  
+
 
       footer{
         margin-top: .5rem;

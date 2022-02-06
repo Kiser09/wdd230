@@ -115,9 +115,49 @@ article h3, .spotlight section h4, section h3{
     color: darkred;
 }
 
-/* Beginning of weather app css*/
+/* Beginning of weather app css */
 
-/* End of weather app*/
+/* Event beginning */
+
+.event{}
+
+.meeting{
+    display:none;
+}
+
+/* Beginning of hero/call to action */
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.herobtn{
+    display: block;
+    grid-column: 3;
+    grid-row: 2;
+    margin:.3rem;
+    width:100%;
+    justify-self: end;
+    align-self: end;
+    border-radius: 15px;
+    background-color: forestgreen;
+    color: white;
+}
+
+.hero h3{
+    position: absolute;
+}
+
+.hero img{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+/* Spotlight CSS */
 
 .spotlight{
     display: block;
@@ -130,6 +170,16 @@ article h3, .spotlight section h4, section h3{
 
 .spotlight section:nth-child(3){
     display: none;
+}
+
+/* Join CSS*/
+.join {
+    display: none;
+}
+.joinbtn{
+    display: none;
+    background-color: forestgreen;
+    color: white;
 }
 
 footer{
