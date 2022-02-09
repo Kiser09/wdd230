@@ -6,5 +6,5 @@ const day = now.getDay();
 		document.querySelector('#eventbanner').style.display = 'block';
 	} 
 	else {
-		document.querySelector('#eventbanner').style.display = 'none';;
+		document.querySelector('#eventbanner').style.display = 'none';
 	}
