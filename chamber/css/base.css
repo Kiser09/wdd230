@@ -9,6 +9,8 @@ h1, h2, h3, h4, th, nav, footer p{
 #eventbanner{
     text-align: center;
     font-family: "Lobster", "Lucida Handwriting", cursive;
+    color: aliceblue;
+    background-color: red;
 }
 /* Header */
 header{
