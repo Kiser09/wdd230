@@ -8,7 +8,7 @@ weekday[3]= "Wednesday";
 weekday[4]= "Thursday";
 weekday[5]= "Friday";
 weekday[6]= "Saturday";
-var day = weekday[now.getDay()];
+const day = weekday[now.getDay()];
 
 	if (day = "Monday" || "Tuesday") {
 		document.querySelector('#eventbanner').style.display = 'block';
