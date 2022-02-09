@@ -5,7 +5,12 @@ body{
 h1, h2, h3, h4, th, nav, footer p{
     font-family: "Lobster", "Lucida Handwriting", cursive;
 }
-
+/* Event Banner */
+.eventbanner{
+    text-align: center;
+    font-family: "Lobster", "Lucida Handwriting", cursive;
+}
+/* Header */
 header{
     display: grid;
     grid-template-columns: 160px 1fr 1fr 1fr;
@@ -120,7 +125,6 @@ article h3, .spotlight section h4, section h3{
 /* Event beginning */
 
 .meeting{
-    
     text-align: center;
 }
 

@@ -11,8 +11,8 @@ weekday[6]= "Saturday";
 let day = weekday[now.getDay()];
 
 if (day = "Monday" || "Tuesday") {
-	document.getElementById("eventbanner").innerHTML = eventbanner.base.display = "block";
+	document.getElementById("eventbanner") = eventbanner.base.display = "block";
 } 
 else {
-	eventbanner.base.display = "none";
+	document.getElementById("eventbanner") = eventbanner.base.display = "none";
 }
