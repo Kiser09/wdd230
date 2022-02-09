@@ -119,8 +119,8 @@ article h3, .spotlight section h4, section h3{
 
 /* Event beginning */
 
-#meeting{
-    display:none;
+.meeting{
+    
     text-align: center;
 }
 
