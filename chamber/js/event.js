@@ -1,3 +1,4 @@
+function banner() {
 const now = new Date();
 
 var weekday = new Array(7);
@@ -10,12 +11,10 @@ weekday[5]= "Friday";
 weekday[6]= "Saturday";
 var day = weekday[now.getDay()];
 
-function banner() {
-const eventbanner = document.getElementById("eventbanner")
 	if (day = "Monday" || "Tuesday") {
-		eventbanner.style.display = "block";
+		document.getElementById('eventbanner').style.display = 'block';
 	} 
 	else {
-		eventbanner.base.display = "none";
+		document.getElementById('eventbanner').style.display = 'none';;
 	}
 }
