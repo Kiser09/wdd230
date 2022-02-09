@@ -13,9 +13,9 @@ let day = weekday[now.getDay()];
 function banner() {
 let eventbanner = document.getElementById("eventbanner")
 	if (day = "Monday" || "Tuesday") {
-		eventbanner.base.display = "block";
+		eventbanner.style.display = "block";
 	} 
 	else {
-		eventbanner.base.display = "none";
+		eventbanner.style.display = "none";
 	}
 }
