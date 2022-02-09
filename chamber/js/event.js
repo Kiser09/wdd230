@@ -10,9 +10,12 @@ weekday[5]= "Friday";
 weekday[6]= "Saturday";
 let day = weekday[now.getDay()];
 
-if (day = "Monday" || "Tuesday") {
-	document.getElementById("eventbanner") = eventbanner.base.display = "block";
-} 
-else {
-	document.getElementById("eventbanner") = eventbanner.base.display = "none";
+function banner() {
+let eventbanner = document.getElementById("eventbanner")
+	if (day = "Monday" || "Tuesday") {
+		eventbanner.base.display = "block";
+	} 
+	else {
+		eventbanner.base.display = "none";
+	}
 }
