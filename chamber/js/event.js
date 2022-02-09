@@ -16,6 +16,6 @@ let eventbanner = document.getElementById("eventbanner")
 		eventbanner.style.display = "block";
 	} 
 	else {
-		eventbanner.style.display = "none";
+		eventbanner.base.display = "none";
 	}
 }
