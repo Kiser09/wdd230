@@ -1,4 +1,3 @@
-function banner() {
 const now = new Date();
 
 var weekday = new Array(7);
@@ -12,9 +11,8 @@ weekday[6]= "Saturday";
 var day = weekday[now.getDay()];
 
 	if (day = "Monday" || "Tuesday") {
-		document.getElementById('eventbanner').style.display = 'block';
+		document.querySelector('#eventbanner').style.display = 'block';
 	} 
 	else {
-		document.getElementById('eventbanner').style.display = 'none';;
+		document.querySelector('#eventbanner').style.display = 'none';;
 	}
-}
