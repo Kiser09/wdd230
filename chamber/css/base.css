@@ -127,8 +127,8 @@ article h3, .spotlight section h4, section h3{
 
 /* Event beginning */
 .event{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .meeting{
