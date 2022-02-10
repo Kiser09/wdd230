@@ -126,6 +126,7 @@ article h3, .spotlight section h4, section h3{
 /* Beginning of weather app css */
 
 /* Event beginning */
+
 .event{
     display: flex;
     flex-direction: column;
@@ -136,12 +137,12 @@ article h3, .spotlight section h4, section h3{
 }
 
 .event img {
-    width: 50%;
     justify-self: center;
     align-self: center;
 }
 
 /* Beginning of hero/call to action */
+
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -204,14 +205,23 @@ article h3, .spotlight section h4, section h3{
 }
 
 /* Join CSS*/
+
 .join {
     display: none;
 }
+
 .joinbtn{
     display: none;
     background-color: forestgreen;
     color: white;
 }
+
+/* News css */
+.news{
+    text-align: center;
+}
+
+/* Footer section */
 
 footer{
     display:block;
