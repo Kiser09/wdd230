@@ -126,9 +126,19 @@ article h3, .spotlight section h4, section h3{
 /* Beginning of weather app css */
 
 /* Event beginning */
+.event{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
 
 .meeting{
     text-align: center;
+}
+
+.event img {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 /* Beginning of hero/call to action */
