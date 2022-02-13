@@ -1,4 +1,4 @@
-const t = parseInt(document.getElementById("temp").textContent);
+const t = parseInt(document.querySelector("#temp").textContent);
 const w = parseInt(document.getElementById("wind").textContent);
 
 if(t <= 50 && w > 3) {

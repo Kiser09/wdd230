@@ -131,6 +131,18 @@ article h3, .spotlight section h4, section h3{
 }
 
 /* Beginning of weather app css */
+.weather{
+    display: flex;
+    flex-direction: column;
+}
+
+.weather p{
+    margin-left: 2%;
+}
+
+.weather picture{
+    align-self: center;
+}
 
 /* Event beginning */
 
