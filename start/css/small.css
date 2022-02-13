@@ -20,6 +20,11 @@ header {
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
+header figure .logo{
+    float: left;
+    margin: 0 2% 0 0;
+}
+
 /*----------- NAVIGATION --------------*/
 nav {
     background-color: #666;
@@ -65,13 +70,13 @@ main figure .myphoto{
     float: right;
 }
 
+main figure .myphoto img{ 
+    width: 100%;
+}
+
 main figure .myphoto figcaption{
     text-align: center;
     font-size: .75rem;
-}
-
-main figure .myphoto img{ 
-    width: 100%;
 }
 /*----------- FOOTER --------------*/
 footer {
