@@ -178,7 +178,7 @@ article h3, .spotlight section h4, section h3{
     justify-self: end;
     align-self: end;
     border-radius: 15px;
-    background-color: forestgreen;
+    background-color: darkblue;
     color: white;
 }
 
@@ -240,7 +240,7 @@ article h3, .spotlight section h4, section h3{
 
 .joinbtn{
     display: none;
-    background-color: forestgreen;
+    background-color: darkblue;
     color: white;
 }
 
