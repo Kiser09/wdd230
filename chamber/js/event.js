@@ -1,7 +1,8 @@
 const now = new Date();
+const dayofweek = now.getDay();
 
-const day = now.getDay();
-
-	if (day = 1 || 2) {
-		document.querySelector('#eventbanner').style.display = 'block';
+let banner;
+	if (dayofweek == 1 || dayofweek == 2) {
+		banner = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
 	} 
+	document.querySelector('#eventbanner').textContent = banner;

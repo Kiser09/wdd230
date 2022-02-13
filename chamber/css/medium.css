@@ -26,15 +26,18 @@
     }
 /* Join CSS*/
     .join{
-        display: block;
+        display: flex;
+        flex-direction: column;
         grid-row: 4;
     }
 
     .joinbtn{
         display: block;
-        margin-top: 3px;
-        width: 100%;
+        margin-top: 2%;
+        width: 60%;
         border-radius: 15px;
+        justify-self: center;
+        align-self: center;
     }
 
     .join p{

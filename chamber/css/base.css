@@ -12,7 +12,7 @@ h1, h2, h3, h4, th, nav, footer p{
 }
 /* Event Banner */
 #eventbanner{
-    display:none;
+    display: block;
     text-align: center;
     font-family: "Lobster", "Lucida Handwriting", cursive;
     color: aliceblue;
@@ -141,6 +141,7 @@ article h3, .spotlight section h4, section h3{
 
 .meeting{
     text-align: center;
+    margin: 0 2% 0 2%;
 }
 
 .event picture {
@@ -229,7 +230,6 @@ article h3, .spotlight section h4, section h3{
     display: none;
     background-color: forestgreen;
     color: white;
-    width: 60%;
 }
 
 /* News css */
