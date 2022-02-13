@@ -1,3 +1,8 @@
+/*Margins for the entire page*/
+#content{
+    margin: 0 2% 0 2%;
+}
+
 body{
     font-family:"EB Garamond", "Garamond", serif;;
 }
@@ -17,7 +22,7 @@ h1, h2, h3, h4, th, nav, footer p{
 header{
     display: grid;
     grid-template-columns: 160px 1fr 1fr 1fr;
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/background2.webp');
     border: 1px solid black;
     border-radius: 20px;
 }
@@ -38,6 +43,7 @@ header h3{
     color:darkblue;
 }
 
+/*Navigation*/
 nav{
     background-color: transparent;
     grid-column: 4;
@@ -106,6 +112,7 @@ header p{
     color: darkblue;
 }
 
+/*Main/Body*/
 main{
     display: block;
     margin:0 auto;
@@ -136,7 +143,7 @@ article h3, .spotlight section h4, section h3{
     text-align: center;
 }
 
-.event img {
+.event picture {
     justify-self: center;
     align-self: center;
 }
@@ -154,7 +161,7 @@ article h3, .spotlight section h4, section h3{
     grid-column: 3;
     grid-row: 2;
     margin:.3rem;
-    width:100%;
+    width: 75%;
     justify-self: end;
     align-self: end;
     border-radius: 15px;
@@ -166,12 +173,18 @@ article h3, .spotlight section h4, section h3{
     position: absolute;
 }
 
-.hero img{
+.hero picture{
+    padding: 0;
+    margin: 0;
     grid-column: 1/4;
     grid-row: 1/3;
-    height: 100%;
-    width: 100%;
+}
+
+.hero picture img{
     padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Spotlight CSS */
@@ -183,25 +196,27 @@ article h3, .spotlight section h4, section h3{
 
 .spotlight section{
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .spotlight section:nth-child(3){
     display: none;
 }
 
-.spotlight section img{
-    margin: 3px;
-    margin-left: 3.2rem; 
+.spotlight section p, .spotlight section picture{
+    justify-self: center;
+    align-self: center;
 }
 
-.spotlight p{
-    text-align: center;
+.spotlight img{
+    margin-top: .5rem;
 }
 
+/* border lines in the spotlight sections*/
 .solid{
     border-top: 3px solid rgba(0,0,0,.5);
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: 0 3px 0 3px;
 }
 
 /* Join CSS*/
@@ -214,6 +229,7 @@ article h3, .spotlight section h4, section h3{
     display: none;
     background-color: forestgreen;
     color: white;
+    width: 60%;
 }
 
 /* News css */
@@ -226,7 +242,7 @@ article h3, .spotlight section h4, section h3{
 footer{
     display:block;
     text-align: center;
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/background2.webp');
     border-radius: 20px;
     border: 1px solid black;
     color: darkblue;

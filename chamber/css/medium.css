@@ -1,4 +1,4 @@
-/*40em is about 540px at 16px font*/
+/*35em is about 540px at 16px font*/
 @media only screen and (min-width: 35em){
     main{
         display: grid;

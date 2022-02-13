@@ -29,7 +29,7 @@
         <header>
 <!--Logo pictuer with home navigation height 150px-->
             <div class="logo">
-                <a href="index.html"><img src="images/headersclogo.jpg" alt="SC logo"></a> 
+                <a href="index.html"><img src="images/headersclogo.webp" alt="SC logo"></a> 
             </div>
 
             <h3>Santa's Chamber of Commerce</h3>
@@ -55,12 +55,17 @@
         <main>
             <section class="hero">
                 <h3>Hero image and call to action</h3>
-                <img src="images/santahouse2.jpg" alt="">
+                <picture>
+                    <img src="images/wdd230-org.webp" sizes="75vw"
+                    srcset="images/wdd230-org380.webp 380w, images/wdd230-org540.webp 540w, images/wdd230-org960.webp 960w">
+                </picture>
                 <button class="herobtn">Join the Chamber</button>
              </section>
             <article class="event">
                 <h3>Event</h3>
-                <img src="images/reindeer.jpg" alt="reindeer">
+                <picture>
+                    <img src="images/reindeer.jpg" alt="reindeer">
+                </picture>
                 <p class="meeting">Join us for the annual reindeer games on February 15th. This year’s judges will be Rudolph, Comet, and Blitzen. The games are being held at the North Pole Elementary soccer field.</p>
             </article>
             <section class="weather">
@@ -82,19 +87,25 @@
             </article>
             <article class="spotlight">
                 <section>
-                    <img src="images/Heart Fire resize.jpg" alt="Heart Fire">
-                    <p>Warming North Pole's Heart</p>
+                    <picture>
+                        <img src="images/Heart Fire resize.webp" alt="Heart Fire">
+                    </picture>
+                    <p>Warming the heart of North Pole</p>
                     <hr class="solid">
                     <p>contact@heartfire.com <br> 907-999-9999, website</p>
                 </section>
                 <section>
-                    <img src="images/Johnson's Flooring resize.jpg" alt="Flooring">
+                    <picture>
+                        <img src="images/Johnson's Flooring resize.webp" alt="Flooring">
+                    </picture>
                     <p>Everything is build from the floor up</p>
                     <hr class="solid">
                     <p>contact@johnsonflooring.com <br> 907-123-4567, website</p>
                 </section>
                 <section>
-                    <img src="images/Santa's Elves Home Repair resize.jpg" alt="Home Repair">
+                    <picture>
+                        <img src="images/Santa's Elves Home Repair resize.webp" alt="Home Repair">
+                    </picture>
                     <p>We can build anything from homes to toys!!</p>
                     <hr class="solid">
                     <p>contact@elveshomerepair.com <br> 907-459-5656, website</p>
@@ -104,7 +115,7 @@
         <footer>
 <!--logo image-->
             <picture class="logo">
-                <img src="images/150pxsclogo.jpg" alt="SC logo">
+                <img src="images/150pxsclogo.webp" alt="SC logo">
             </picture>
 <!--Chamber of Commerce address (not real)-->
             <ul class="SC-address">
