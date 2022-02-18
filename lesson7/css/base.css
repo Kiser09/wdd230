@@ -1,0 +1,21 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header div{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+}
+picture img[data-src] {
+    filter: blur(.3em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.3s;
+}
+
+footer{
+    text-align: center;
+}

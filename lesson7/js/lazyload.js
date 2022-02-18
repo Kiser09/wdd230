@@ -1,4 +1,4 @@
-let imagesToLoad = document.querySelectorAll('img[data-src]')
+
 
 /**Last Modified JS for the footer**/
 const lastmod = document.querySelector("#lastmod");
