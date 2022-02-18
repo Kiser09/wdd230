@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <meta name="description" content="Demonstration of Lazy Load images">
+    <!--CSS file links-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <!--JS files link-->
+    <script defer src="js/lazyload.js"></script> 
+</head>
+
+<body>
+    <header>
+        <h1>Space!!!</h1>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="images/earth2.webp" alt="earth">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="images/galaxycollion.webp" alt="galaxy collision">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="images/quasar.webp" alt="quasar">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="earth2.webp" alt="earth">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="supernova.webp" alt="supernova">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.webp" data-src="solareclips.webp" alt="solar eclipse">
+        </picture>
+    </header>
+    <footer>
+        <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Blayne Kiser | Alaska</p>
+            <p id="lastmod"></p>
+    </footer>
+</body>
+</html>
