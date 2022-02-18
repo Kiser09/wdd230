@@ -7,15 +7,18 @@ header div{
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
 }
-picture img[data-src] {
-    filter: blur(.3em);
+
+header picture img[data-src] {
+    filter: blur(.04em);
 }
 
-picture img {
+picture img{
     filter: blur(0em);
-    transition: filter 0.3s;
+    transition: filter 0.2s;
 }
 
 footer{
     text-align: center;
+    background-color: red;
+    color: white;
 }
