@@ -87,3 +87,8 @@
           text-align: left;
       }
 }
+
+/**DISCOVERY PAGE START**/
+.discoverheading{
+    grid-column: 2/4;
+}
