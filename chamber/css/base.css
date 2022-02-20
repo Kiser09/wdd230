@@ -277,8 +277,38 @@ footer p{
 }
 
 /**DISCOVERY PAGE BEGINNING**/
+.discovermain{
+    display: block;
+    background-color: #F5F5DC
+}
+
+.discovergrid{
+    display: block;
+    margin-top:1%;
+}
+
+.discoverheading{
+    display: block;
+    background-image: url('../images/background2.webp');
+
+}
+
+.discoverheading h1{
+    margin: 0;
+    margin-left: 3%;
+}
 
 .santahouse, .reindeeracademy, .iditarod, .northern, .springs, .riverboat, .pipeline, .ice, .fishing{
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.santahouse picture, .reindeeracademy picture, .iditarod picture, .northern picture, .springs picture, .riverboat picture, .pipeline picture, .ice picture, .fishing picture {
     align-self: center;
+}
+
+.discovergrid section p {
+    text-align: center;
+    margin: 2% 2% 0 2%;
 }
