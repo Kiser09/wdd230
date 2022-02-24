@@ -279,6 +279,7 @@ footer p{
 /***************DISCOVERY PAGE BEGINNING************/
 .discovermain{
     display: block;
+    margin:0 auto;
 }
 
 .discoverheading{
@@ -295,7 +296,7 @@ footer p{
     margin-left: 3%;
 }
 
-.santahouse, .reindeeracademy, .iditarod, .northern, .springs, .riverboat, .pipeline, .ice, .fishing{
+.discovermain section{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -339,7 +340,7 @@ footer p{
   
   .text {
     color: white;
-    font-size: .5rem;
+    font-size: .2rem;
     position: absolute;
     top: 50%;
     left: 50%;
