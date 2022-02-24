@@ -305,8 +305,6 @@ footer p{
 }
 
 .santahouse h3, .reindeeracademy h3, .iditarod h3, .northern h3, .springs h3, .riverboat h3, .pipeline h3, .ice h3, .fishing h3{
-    grid-column: 2/4;
-    grid-row: 1;
     color: white;
 } 
 
@@ -314,9 +312,7 @@ footer p{
 .container {
     position: relative;
     align-self: center;
-    width:100%;
-    grid-row: 2;
-    grid-column: 1/4;
+    width:80%;
   }
   
   .image {
