@@ -79,13 +79,8 @@
 
 .discovermain{
     display: grid;
-    grid-gap:5px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
-.discoverheading{
-    color: darkblue; 
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr); 
 }
 
 .text{
