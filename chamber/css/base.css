@@ -308,17 +308,9 @@ footer p{
 } 
 
 .discovermain section p{
-    display: inline-block;
+    display: block;
 }
 
-.overlay{
-    display: none;
-}
-
-.container:hover .overlay {
-    color: inherit;
-}
-
-.discovermain section p{
-    display: inline-block;
+.text{
+    color: white;
 }
