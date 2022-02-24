@@ -1,6 +1,6 @@
 /*35em is about 540px at 16px font*/
 @media only screen and (min-width: 35em){
-    main{
+    .indexgrid{
         display: grid;
         grid-gap: 3px;
         grid-template-columns: repeat(4, 1fr);
@@ -80,8 +80,8 @@
 .discovermain{
     display: grid;
     grid-gap:5px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .discoverheading{
