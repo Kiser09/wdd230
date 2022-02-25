@@ -1,0 +1,34 @@
+table{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+table thead tr:nth-child(1) th:nth-child(1){
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: lightcoral
+}
+
+table thead tr:nth-child(2){
+    color: white;
+    background-color: navy;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: palegreen;
+}
+
+table tbody tr:nth-child(even){
+    background-color: plum;
+}
+
+table tbody tr:nth-child(4) td:nth-child(3){
+    background-color: navy;
+    color: white;
+}
