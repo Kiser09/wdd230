@@ -314,3 +314,7 @@ footer p{
 .text{
     color: white;
 }
+
+.discovermain section .container{
+    margin-bottom: 10px;
+}
