@@ -325,18 +325,36 @@ form fieldset{
     border: 2px solid darkblue;
     border-radius: 20px;
     padding: .3rem 1%;
+    background-color: #F5F5DC;
+}
+
+.joinheader{
+    color: darkblue;
 }
 
 form legend{
     color: darkred;
     margin: 0 1.2rem;
     padding: 0 .2rem;
+    font-size: 1rem;
+}
+
+.bdGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.bdGrid textarea{
+    background-color: rgba(0,0,0,.1);
+    border: solid 1px lightgrey; 
+    border-radius: 5px;
 }
 
 .ltalign, form div{
     display: block;
     padding-top: .8rem;
     font-size: 1rem;
+    color: darkblue;
 }
 
 .ltalign input{
@@ -349,6 +367,33 @@ form legend{
     background-color: rgba(0,0,0,.1);
 }
 
-.sxs{
+.ltalign input:required, .bdGrid textarea{
+    border: red solid 3px;  
+}
 
+.ltalign input:required:valid, .bdGrid textarea:required:valid{
+    border: green solid 3px;
+}
+
+.sxs{
+    display: block;
+    padding: .8rem;
+    color: darkblue;
+    font-size: 1rem;
+}
+
+.sxs ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.submitBtn{
+    margin: .4rem 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    width: 25%;
+    max-width: 20rem;
+    font-size: 1.75rem;
 }

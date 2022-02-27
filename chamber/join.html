@@ -54,7 +54,7 @@
                 <p id="currentdate" ></p>
     </header>
 
-    <h1>Santa's Chamber of Commerce Application</h1>
+    <h1 class="joinheader">Santa's Chamber of Commerce Application</h1>
     <!--Join Chamber of Commerce Form -->
     <form method="get" action="thankyou.html">
         <fieldset>
@@ -69,24 +69,39 @@
             <legend>Buisness Information</legend>
             <label class="ltalign">Buisness Position<input type="text" name="jobTitle" pattern="[A-Za-z\s-]{7,}"></label>
             <label class="ltalign">Name of Buisness<input type="text" name="bname" required></label>
-            <label for="description" class="ltalign">Buisness Description
-            <textarea name="description" id="description" cols="50" rows="10"></textarea></label>
+            <label for="description" class="ltalign bdGrid">Buisness Description
+            <textarea name="description" id="description" cols="50" rows="10" class="ltalign"></textarea></label>
         </fieldset>
 
         <fieldset>
             <legend>Membership Level</legend>
             <div>Membership</div>
-            <label class="sxs"><input type="radio" name="member" value="gold">Gold Membership</label>
-            <p><i>Gold Membership fee is $40/month or $480/annually. Members recieve 20% discount with all sponsor buisness and all other benefits belonging to the other membership levels.</i></p>
+            <label class="sxs"><input type="radio" name="member" value="gold">Gold Membership $40/month or $480/annually</label>
+            <ul>
+                <li>Members recieve 20% discount with all sponsor buisness</li>
+                <li>Free advertisement to all Chamber events</li>
+                <li>annual membership to Tanana Golf Driving Range</li>
+                <li>A free dinner for them + 1 once a month at the Turtle Club.</li>
+            </ul>
 
-            <label class="sxs"><input type="radio" name="member" value="silver">Silver Membership</label>
-            <p><i>Silver Membership fee is $30/month or $360/annually. Members recieve an annual membership to Tanana Golf Driving Range and all other benefits belonging to the other membership levels.</i></p>
+            <label class="sxs"><input type="radio" name="member" value="silver">Silver Membership $30/month or $360/annually</label>
+            <ul>
+                <li>Free advertisement to all Chamber events</li>
+                <li>Annual membership to Tanana Golf Driving Range</li>
+                <li>A free dinner for them + 1 once a month at the Turtle Club.</li>
 
-            <label class="sxs"><input type="radio" name="member" value="bronze">Bronze Membership</label>
-            <p><i>Bronze Membership fee is $15/month or $180/annually. Members a free dinner for them + 1 once a month at the Turtle Club.  </i></p>
+            </ul>
+
+            <label class="sxs"><input type="radio" name="member" value="bronze">Bronze Membership $20/month or $240/annually</label>
+            <ul>
+                <li>Free advertisement to all Chamber events</li>
+                <li>A free dinner for them + 1 once a month at the Turtle Club.</li>
+            </ul>
 
             <label class="sxs"><input type="radio" name="member" value="np">NP Membership</label>
-            <p><i>NP membership is for nonprofit (NP) organizations. There is no monthly or annual fees assoicated with this membership, however members must attend atleast on meeting a month.</i></p>
+            <ul>
+                <li>Free advertisement to all Chamber events</li>
+            </ul>
         </fieldset>
 
         <input type="hidden" id="joinDate" name="joinDate" value="">
