@@ -318,3 +318,37 @@ footer p{
 .discovermain section .container{
     margin-bottom: 10px;
 }
+
+/*********************Join Form CSS*******************/
+form fieldset{
+    margin: 1rem 0;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    padding: .3rem 1%;
+}
+
+form legend{
+    color: darkred;
+    margin: 0 1.2rem;
+    padding: 0 .2rem;
+}
+
+.ltalign, form div{
+    display: block;
+    padding-top: .8rem;
+    font-size: 1rem;
+}
+
+.ltalign input{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    padding: .8rem;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+.sxs{
+
+}
