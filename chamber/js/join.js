@@ -7,4 +7,4 @@ var joinDate = "Last Sync: " + join.getDate() + "/"
 	+ join.getSeconds();
 
  console.log(joinDate)
- document.getElementById('joinDate').value = joinDate
+ document.getElementById('joinDate').value = joinDate;

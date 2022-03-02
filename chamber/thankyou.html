@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    
+    <title>Thank You</title>
+<!--Brief description of webpage content-->
+    <meta name="description" content="Thank You ">
+    
+<!--CSS style sheets for different media queries-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="santaicon" href="santahat.ico">
+    
+<!--JavaScript page links for the dates and hamburger menus-->
+    <script defer src="js/date.js"></script>
+    <script defer src="js/hamburgernav.js"></script>  
+</head>
+
+<body>
+    <header>
+<!--Logo pictuer with home navigation height 150px-->
+        <div class="logo">
+            <a href="index.html"><img src="images/headersclogo.webp" srcset="images/headersclogo.webp 3x, images/headerlogo200width.webp 2x, images/headerlogo225width.webp 1x" alt="SC logo"></a> 
+        </div>
+                    
+    <h3>Santa's Chamber of Commerce</h3>
+<!--Navigation: active class displays the active page. See base.css page for use-->
+        <nav>
+            <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primarynav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+<!--Social media icons-->
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
+        </div>
+<!--Date and year for header-->
+        <p id="currentdate" ></p>
+    </header>
+    <main>
+        <h1 class="joinheader">Santa's Chamber of Commerce Application</h1>
+        <p>Thanks for applying to become apart of Santa's Chamber of Commerce. We will get back to you within a week with a response. If you have any questions please contact us at santachamberofcommerce@yahoo.com</p>
+    </main>
+<!--Footer Section-->    
+    <footer>
+<!--logo image-->
+        <picture class="footerlogo">
+            <img src="images/headerlogo225width.webp" alt="SC logo">
+        </picture>
+<!--Chamber of Commerce address (not real)-->
+        <ul class="SC-address">
+            <li>Santa's Chamber of Commerce </li>
+            <li>1234 Mistletoe Dr</li>
+            <li>North Pole, AK 99705</li>
+        </ul>
+<!--contact information-->
+        <ul class="contact-map">
+            <li>info@Santascommerce.com</li>
+            <li>(907)111-1111</li>
+<!--link to map location on google maps-->
+            <li><a href="https://goo.gl/maps/V6sio2XM7eh8wFaa9"><img src="images/mappin.png" alt="map pin">Map Location</a></li>
+            </ul>
+<!--Last modified footer-->
+        <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Santa's Commerce | Blayne Kiser | WDD 230 Project | <span id="lastmod"></span></p>
+    </footer>
+</body>
+</html>
