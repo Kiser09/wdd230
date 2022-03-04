@@ -1,0 +1,50 @@
+h1, h2{
+    font-family: "EB Garamond", Georgia, serif;
+}
+
+body{
+    font-family: "Cormorant Garamond", Times, serif;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3px;
+    border: 2px solid black;
+    background-color: darkolivegreen;
+}
+
+.cards section {
+    display: flex;
+    flex-direction: column;
+    margin: .50em;
+    padding: .8em;
+    background-color: rgba(0,0,0,.85);
+    font-size: 14pt;
+    color: rgb(225, 237, 250);
+    box-shadow: 5px 5px 8px rgb(170, 164, 164);
+}
+
+.cards section h2, .cards section p {
+    margin: 0;
+}
+
+.card section img {
+        width: auto;
+        height: 150px;
+        box-shadow: 7px 5px darkgrey;
+}
+
+/*Medium view port*/
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/*Large Viewport*/
+@media only screen and (min-width: 60em) {
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

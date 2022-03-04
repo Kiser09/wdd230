@@ -19,6 +19,19 @@ fetch(requestURL)
         let portrait = document.createElement('img');
         let bday = document.createElement('p');
         let bplace = document.createElement('p');
+        let prophetNumber = ''
+
+        if (prophet.order === 1 && prophet.order != 11){
+            prophetNumber = `${prophet.order}st`;} 
+
+            else if (prophet.order === 2 && prophet.order != 12) {
+            prophetNumber = `${prophet.order}nd`;}
+        
+            else if (prophet.order === 3 && prophet.order != 13) {
+            prophetNumber = `${prophet.order}rd`;}
+            
+            else {
+            prophetNumber = `${prophet.order}th`;}
 
         //text
         h2.textContent = `${prophet.name} ${prophet.lastname}`;
@@ -26,9 +39,9 @@ fetch(requestURL)
         bplace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         //portrait/img
-        portrait.setAttribute('src', prophet.imageur1);
-        portrait.setAttribute('alt', `Portrait of ${prophet.name}  ${prophet.lastname} - Latter-Day President`);
+        portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('loading', 'lazy');
+        portrait.setAttribute('alt', `Portrait of ${prophet.name}  ${prophet.lastname} - ${prophetNumber} Latter-Day President`);
 
         card.appendChild(h2);
         card.appendChild(bday);
