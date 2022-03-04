@@ -7,30 +7,33 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
+        // console.table(jsonObject);
         const prophets = jsonObject['prophets'];
         prophets.forEach(displayProphets);
     });
 
     function displayProphets(prophet) {
+        //variables 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let portrait = document.createElement('img');
         let bday = document.createElement('p');
         let bplace = document.createElement('p');
 
+        //text
         h2.textContent = `${prophet.name} ${prophet.lastname}`;
         bday.textContent = `Date of Birth: ${prophet.birthdate}`;
         bplace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
-        ____.setAttribute('src', prophet.imageur1);
-        ____.setAttribute('alt', `Portrait of ${prophet.name}  ${prophet.lastname} - `);
-        ____.setAttribute('loading', 'lazy');
+        //portrait/img
+        portrait.setAttribute('src', prophet.imageur1);
+        portrait.setAttribute('alt', `Portrait of ${prophet.name}  ${prophet.lastname} - Latter-Day President`);
+        portrait.setAttribute('loading', 'lazy');
 
         card.appendChild(h2);
         card.appendChild(bday);
         card.appendChild(bplace);
         card.appendChild(portrait);
 
-        cards.appendChild(card);
+        document.querySelector('div.cards').appendChild(card);
     }
