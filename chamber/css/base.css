@@ -368,11 +368,11 @@ form legend{
     background-color: rgba(0,0,0,.1);
 }
 
-.ltalign input:required, .bdGrid textarea{
+.ltalign input:required{
     border: red solid 3px;  
 }
 
-.ltalign input:required:valid, .bdGrid textarea:required:valid{
+.ltalign input:required:valid{
     border: green solid 3px;
 }
 
