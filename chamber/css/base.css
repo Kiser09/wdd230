@@ -320,8 +320,6 @@ footer p{
 }
 
 /*********************Join Form CSS*******************/
-
-
 form fieldset{
     margin: 1rem 0;
     border: 2px solid darkblue;
@@ -332,6 +330,7 @@ form fieldset{
 
 .joinheader{
     color: darkblue;
+    margin-left: 3%;
 }
 
 form legend{

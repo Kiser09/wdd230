@@ -130,4 +130,9 @@
     text-align: center;
     display: inline-block;
   }
+
+  /*******************Join Page**********************/
+  .membershiplvl{
+      display: block;
+  }
 }

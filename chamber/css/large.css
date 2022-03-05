@@ -95,6 +95,10 @@
     }
 
 /*******************Join Page**********************/   
+form{
+    max-width: 960px;
+        margin: 0 auto;
+}
 .membershiplvl{
     display: grid;
     grid-template-columns: 1fr 1fr;
