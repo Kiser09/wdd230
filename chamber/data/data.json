@@ -1,0 +1,88 @@
+{
+    "localbuisness": [
+        {
+            "name": "Heart Fire",
+            "address": "1252 CandyCane Rd, North Pole Alaska 99705",
+            "phone": "907-999-9999",
+            "website": "heartfireak.com",
+            "logo": "images/hearfirelogo.webp"
+        },
+        {
+            "name": "Johnson's Flooring",
+            "address": "2222 Sleigh Ride Dr, North Pole Alaska 99705",
+            "phone": "907-123-4567",
+            "website": "johnsonsflooring.com",
+            "logo": "images/johnsonflooringresize.webp"
+        },
+        {
+            "name": "Santa's Elves Home Repair",
+            "address": "3525 Mistletoe Ave",
+            "phone": "907-459-5656",
+            "website": "elveshomerepair.com",
+            "logo": "images/santaelveshomerepairresize.webp"
+        },
+        {
+            "name": "",
+            "address": "1020 Aurora Ave",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "logo": ""
+        }
+    ]
+}
