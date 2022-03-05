@@ -320,6 +320,8 @@ footer p{
 }
 
 /*********************Join Form CSS*******************/
+
+
 form fieldset{
     margin: 1rem 0;
     border: 2px solid darkblue;
@@ -382,7 +384,7 @@ form legend{
     font-size: 1rem;
 }
 
-.sxs ul{
+.membership{
     margin-top: 0;
     margin-bottom: 0;
 }
