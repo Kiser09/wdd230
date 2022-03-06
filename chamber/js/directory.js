@@ -16,7 +16,7 @@ fetch(requestURL)
         //variables 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let logo = document.createElement('img');
+        let pic = document.createElement('img');
         let addr = document.createElement('p');
         let tel = document.createElement('p');
         let website = document.createElement('p')
@@ -28,9 +28,9 @@ fetch(requestURL)
         website.textContent = `Web address: ${local.website}`
 
         //portrait/img
-        logo.setAttribute('src', local.logo);
-        logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('alt', `${local.name} logo`);
+        pic.setAttribute('src', local.logo);
+        pic.setAttribute('loading', 'lazy');
+        pic.setAttribute('alt', `${local.name} logo`);
 
         card.appendChild(h2);
         card.appendChild(tel);
