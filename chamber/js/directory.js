@@ -25,7 +25,7 @@ fetch(requestURL)
         h2.textContent = `${local.name}`;
         addr.textContent = `Address: ${local.address}`;
         tel.textContent = `Phone: ${local.phone}`;
-        website.textContent = `Web address: ${local.website}`
+        website.innerHTML = `<a href="${local.website}">Website: ${local.website}</a>`;
 
         //portrait/img
         pic.setAttribute('src', local.logo);
