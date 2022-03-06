@@ -5,21 +5,21 @@
             "address": "1252 CandyCane Rd, North Pole Alaska 99705",
             "phone": "907-999-9999",
             "website": "https://www.heartfireak.com",
-            "logo": "images/hearfirelogo.webp"
+            "logo": "images/heartfirelarge.webp"
         },
         {
             "name": "Johnson's Flooring",
             "address": "2222 Sleigh Ride Dr, North Pole Alaska 99705",
             "phone": "907-123-4567",
             "website": "https://www.johnsonsflooring.com",
-            "logo": "images/johnsonflooringresize.webp"
+            "logo": "images/johnsonflooringlarge.webp"
         },
         {
             "name": "Santa's Elves Home Repair",
             "address": "3525 Mistletoe Ave, North Pole Alaska 99705",
             "phone": "907-459-5656",
             "website": "https://www.elveshomerepair.com",
-            "logo": "images/santaelveshomerepairresize.webp"
+            "logo": "images/santaelveslarge.webp"
         },
         {
             "name": "YouCanDIY",
