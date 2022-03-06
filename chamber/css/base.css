@@ -435,7 +435,6 @@ form legend{
 .localbusiness-cards section {
     display: flex;
     flex-direction: column;
-    width: auto;
     margin: .4rem;
     padding: .8rem;
     color: darkblue;
