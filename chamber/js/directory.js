@@ -1,6 +1,7 @@
 const requestURL = 'https://kiser09.github.io/wdd230/chamber/data/data.json';
 
-const card = document.querySelector('.localbusiness-cards');
+const cards = document.querySelector('.localbusiness-cards');
+const lists = document.querySelector('.localbusiness-list');
 
 fetch(requestURL)
     .then(function (response) {
@@ -10,17 +11,6 @@ fetch(requestURL)
         console.table(jsonObject);
         const localbusiness = jsonObject['localbusiness'];
         localbusiness.forEach(displayBusiness);
-
-        document.getElementById("gridbTn").addEventListener("click", () => {
-            members.forEach(displayList)
-            cards.innerHTML = ""
-        });
-        
-        document.getElementById("listbTn").addEventListener("click", () => {
-            members.forEach(displayBuisness)
-            memlist.innerHTML = ""
-            
-        });
     });
 
     function displayBusiness(local) {
@@ -38,7 +28,7 @@ fetch(requestURL)
         tel.textContent = `Phone: ${local.phone}`;
         website.innerHTML = `Website: <a href="${local.website}">${local.website}</a>`;
 
-        //portrait/img
+        //image
         pic.setAttribute('src', local.logo);
         pic.setAttribute('loading', 'lazy');
         pic.setAttribute('alt', `${local.name} logo`);
@@ -49,5 +39,37 @@ fetch(requestURL)
         card.appendChild(website);
         card.appendChild(pic);
 
-        document.querySelector('div.localbusiness-cards').appendChild(card);
+        cards.prepend(card);
+    }
+
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const localbusiness = jsonObject['localbusiness'];
+        localbusiness.forEach(displayList);
+    });
+
+    function displayList (locallist) {
+        //business rows
+        let row = document.createElement('tr');
+        let name = document.createElement('td');
+        let address = document.createElement('td');
+        let tel = document.createElement('td');
+        let website = document.createElement('td');
+
+        name.textContent = `${locallist.name}`;
+        address.textContent = `${locallist.address}`;
+        tel.textContent = `${locallist.phone}`;
+        website.textContent = `${locallist.website}`;
+
+        row.appendChild(name);
+        row.appendChild(address);
+        row.appendChild(tel);
+        row.appendChild(website);
+
+        lists.appendChild(row)
     }

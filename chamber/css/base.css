@@ -456,3 +456,7 @@ form legend{
     margin-top: 5px;
     align-self: center;
 }
+
+.directorytable{
+    margin: 0;
+}
