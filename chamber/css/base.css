@@ -459,6 +459,7 @@ form legend{
 }
 
 .directorytable{
+    display: table;
     margin: 0;
     width: 100%;
 }

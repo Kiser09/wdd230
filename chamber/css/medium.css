@@ -135,4 +135,9 @@
   .membershiplvl{
       display: block;
   }
+
+  /*********************Directory Page***********************/
+  .localbusiness-cards{
+      display: none;
+  }
 }
