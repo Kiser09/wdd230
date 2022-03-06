@@ -10,6 +10,17 @@ fetch(requestURL)
         console.table(jsonObject);
         const localbusiness = jsonObject['localbusiness'];
         localbusiness.forEach(displayBusiness);
+
+        document.getElementById("gridbTn").addEventListener("click", () => {
+            members.forEach(displayList)
+            cards.innerHTML = ""
+        });
+        
+        document.getElementById("listbTn").addEventListener("click", () => {
+            members.forEach(displayBuisness)
+            memlist.innerHTML = ""
+            
+        });
     });
 
     function displayBusiness(local) {
@@ -39,8 +50,4 @@ fetch(requestURL)
         card.appendChild(pic);
 
         document.querySelector('div.localbusiness-cards').appendChild(card);
-    }
-
-    function listBuisness(table) {
-
     }
