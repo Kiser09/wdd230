@@ -12,7 +12,7 @@ fetch(requestURL)
         localbusiness.forEach(displayBusiness);
     });
 
-    function displayBusiness(localbusiness) {
+    function displayBusiness(local) {
         //variables 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -22,15 +22,15 @@ fetch(requestURL)
         let website = document.createElement('p')
 
         //text
-        h2.textContent = `${localbusiness.name}`;
-        addr.textContent = `Address: ${localbusiness.address}`;
-        tel.textContent = `Phone: ${localbusiness.phone}`;
-        website.textContent = `Web address: ${localbusiness.website}`
+        h2.textContent = `${local.name}`;
+        addr.textContent = `Address: ${local.address}`;
+        tel.textContent = `Phone: ${local.phone}`;
+        website.textContent = `Web address: ${local.website}`
 
         //portrait/img
-        logo.setAttribute('src', localbusiness.logo);
+        logo.setAttribute('src', local.logo);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('alt', `${localbusiness.name} logo`);
+        logo.setAttribute('alt', `${local.name} logo`);
 
         card.appendChild(h2);
         card.appendChild(tel);
@@ -38,5 +38,5 @@ fetch(requestURL)
         card.appendChild(website);
         card.appendChild(logo);
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.localbusiness-cards').appendChild(card);
     }
