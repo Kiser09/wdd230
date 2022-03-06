@@ -4,84 +4,84 @@
             "name": "Heart Fire",
             "address": "1252 CandyCane Rd, North Pole Alaska 99705",
             "phone": "907-999-9999",
-            "website": "www.heartfireak.com",
+            "website": "https://www.heartfireak.com",
             "logo": "images/hearfirelogo.webp"
         },
         {
             "name": "Johnson's Flooring",
             "address": "2222 Sleigh Ride Dr, North Pole Alaska 99705",
             "phone": "907-123-4567",
-            "website": "www.johnsonsflooring.com",
+            "website": "https://www.johnsonsflooring.com",
             "logo": "images/johnsonflooringresize.webp"
         },
         {
             "name": "Santa's Elves Home Repair",
             "address": "3525 Mistletoe Ave, North Pole Alaska 99705",
             "phone": "907-459-5656",
-            "website": "www.elveshomerepair.com",
+            "website": "https://www.elveshomerepair.com",
             "logo": "images/santaelveshomerepairresize.webp"
         },
         {
             "name": "YouCanDIY",
             "address": "1020 Aurora Ave, North Pole Alaska 99705",
             "phone": "907-222-2222",
-            "website": "www.youcandiy.com",
+            "website": "https://www.youcandiy.com",
             "logo": "images/youcandiy.webp"
         },
         {
             "name": "Thor's Electrical",
             "address": "1010 Red Nose Ln, North Pole Alaska 99705",
             "phone": "907-333-4415",
-            "website": "www.thorselectrical.com",
+            "website": "https://www.thorselectrical.com",
             "logo": "images/thorselectrical.webp"
         },
         {
             "name": "Pawfect Manners Dog Training",
             "address": "3525 Wildwood Dr, North Pole Alaska 99705",
             "phone": "907-888-8888",
-            "website": "www.pawfectmanners.com",
+            "website": "https://www.pawfectmanners.com",
             "logo": "images/pawfectmanners.webp"
         },
         {
             "name": "Nuts N Bolts",
             "address": "1131 Mistletoe Ave, North Pole Alaska 99705",
             "phone": "907-123-1235",
-            "website": "www.nutsnbolts.com",
+            "website": "https://www.nutsnbolts.com",
             "logo": "images/nutsnbolts.webp"
         },
         {
             "name": "Patriot Firearms",
             "address": "2023 Red Nose Ln, North Pole Alaska 99705",
             "phone": "907-456-5622",
-            "website": "www.patriotfirearms.com",
+            "website": "https://www.patriotfirearms.com",
             "logo": "images/patriotfirearms.webp"
         },
         {
             "name": "McFly's Automotive",
             "address": "2232 Future Rd, North Pole Alaska 99705",
             "phone": "907-111-5555",
-            "website": "www.mcflysauto.com",
+            "website": "https://www.mcflysauto.com",
             "logo": "images/mcflyautomotive.webp"
         },
         {
             "name": "Epona's Animal Boarding",
             "address": "4251 Santa Dr, North Pole Alaska 99705",
             "phone": "907-852-8521",
-            "website": "www.eponaboarding.com",
+            "website": "https://www.eponaboarding.com",
             "logo": "images/eponaboard.webp"
         },
         {
             "name": "Artemis Bow & Range",
             "address": ", North Pole Alaska 99705",
             "phone": "907-333-3525",
-            "website": "www.artemisbow.com",
+            "website": "https://www.artemisbow.com",
             "logo": "images/artemis.webp"
         },
         {
             "name": "Midnight Sun Gaming",
             "address": ", North Pole Alaska 99705",
             "phone": "907-265-8888",
-            "website": "www.midnightsungaming.com",
+            "website": "https://www.midnightsungaming.com",
             "logo": "images/midnightsungaming.webp"
         }
     ]
