@@ -36,7 +36,7 @@ fetch(requestURL)
         card.appendChild(tel);
         card.appendChild(addr);
         card.appendChild(website);
-        card.appendChild(logo);
+        card.appendChild(pic);
 
         document.querySelector('div.localbusiness-cards').appendChild(card);
     }
