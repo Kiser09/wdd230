@@ -400,6 +400,7 @@ form legend{
     font-size: 1.75rem;
 }
 /***********************Directory Page*************************/
+
 .directoryheader{
     text-align: center;
     color: darkblue;
@@ -460,4 +461,16 @@ form legend{
 .directorytable{
     margin: 0;
     width: 100%;
+}
+
+.directorytable td{
+    border: 1px solid black;
+}
+
+.localbuisness-list tr:nth-child(odd){
+    background-color: #F5F5DC;
+}
+
+.localbusiness-list tr:nth-child(even){
+    background-color: cyan;
 }

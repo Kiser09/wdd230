@@ -73,3 +73,14 @@ fetch(requestURL)
 
         lists.appendChild(row)
     }
+
+    //View Functions for list and grid
+    function gridview() {
+        var element = document.getElementById("localbusiness-cards");
+        element.classList.toggle("mystyle");
+     }
+
+     function listview() {
+        var element = document.getElementById("localbusiness-list");
+        element.classList.toggle("../css/base.css", "../css/medium.css", "../css/large.css");
+     }
