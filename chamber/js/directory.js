@@ -40,3 +40,7 @@ fetch(requestURL)
 
         document.querySelector('div.localbusiness-cards').appendChild(card);
     }
+
+    function listBuisness(table) {
+
+    }
