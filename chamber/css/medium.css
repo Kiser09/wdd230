@@ -140,4 +140,8 @@
   .localbusiness-cards{
       display: none;
   }
+
+  .directorytable{
+      display: table;
+  }
 }

@@ -107,4 +107,8 @@ form{
 .directorytable {
     display: none;
 }
+
+.localbusiness-cards{
+    display: grid;
+}
 }
