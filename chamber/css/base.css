@@ -4,7 +4,8 @@
 }
 
 body{
-    font-family:"EB Garamond", "Garamond", serif;;
+    font-family:"EB Garamond", "Garamond", serif;
+    margin: 1% 2% 1% 2%;
 }
 
 h1, h2, h3, h4, th, nav, footer p{
