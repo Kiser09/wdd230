@@ -9,7 +9,7 @@ fetch(apiURL)
         document.querySelector('#temp').textContent = jsObject.main.temp.toFixed(1);
 
     /*Document Selector gathers the temp from Fetch and displays into the html doc. Windchill calculation follows the wind doc selector.*/
-        document.querySelector('#wind').textContent = jsObject.wind.speed.toFixed(1);
+        document.querySelector('#wind').textContent = jsObject.wind.speed.toFixed(0);
 
         /*Wind Chill function for the weather section*/
         const t = jsObject.main.temp.toFixed(1);
