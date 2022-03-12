@@ -1,0 +1,39 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main{
+    border: 1px double white;
+    background-color: #174F28;
+    margin-top: 2%;
+}
+
+h1{
+    font-family:"Bebas Neue", Arial, sans-serif;
+    margin-left: 2%;
+    color: white;
+}
+
+p, figcaption{
+    font-family:"Source Serif Pro", 'Times New Roman', serif;
+    margin-left: 2%;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight{
+    display: inline;
+    font-family:"Bebas Neue", Arial, sans-serif;
+    background-color: darkred;
+    color: white;
+    margin-left: 2%;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
