@@ -40,6 +40,11 @@
           grid-column: 1;
       }
 
+      #weathericon{
+          width: 5rem;
+          height: 5rem;
+      }
+
 /*Join section CSS*/
 
       .join{

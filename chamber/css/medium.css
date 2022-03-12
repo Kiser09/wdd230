@@ -56,6 +56,11 @@
         grid-column: 1/4;
     }
 
+    #weathericon{
+        width: 4rem;
+        height: 4rem;
+    }
+
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

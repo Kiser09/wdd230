@@ -145,6 +145,11 @@ article h3, .spotlight section h4, section h3{
     align-self: center;
 }
 
+#weathericon{
+    width: 6rem;
+    height: 6rem;
+}
+
 /* Event beginning */
 
 .event{
