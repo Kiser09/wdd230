@@ -141,6 +141,12 @@
       display: block;
   }
 
+  .submitBtn{
+    width: 25%;
+    max-width: 20rem;
+    font-size: 1.75rem;
+}
+
   /*********************Directory Page***********************/
   .localbusiness-cards{
       display: none;
