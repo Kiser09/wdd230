@@ -150,6 +150,12 @@ article h3, .spotlight section h4, section h3{
     height: 6rem;
 }
 
+.wcondition{
+    font-family: "Lobster", "Lucida Handwriting", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 /* Event beginning */
 
 .event{
