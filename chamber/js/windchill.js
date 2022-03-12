@@ -5,6 +5,8 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
+    /* */ 
+        document.querySelector('temp').textContent = jsObject.main.temp.toFixed(1);
 
         document.querySelector('#current-temp').textContent = jsObject.main.temp.toFixed(1);
     });
