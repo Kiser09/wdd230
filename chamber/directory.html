@@ -57,17 +57,20 @@
 
     <main>
         <h1 class="directoryheader">Member Directory</h1>
-
+<!--Grid button-->
         <div class="buttongrid">
-            <button id="gridbTn" class="gridbtn" onclick="gridview"><img src="images/grid_icon.png" alt="grid icon"></button>
+            <button id="gridbTn" class="gridbtn" onclick="gridview()"><img src="images/grid_icon.png" alt="grid icon"></button>
 
-            <button id="listbTn" class="listbtn" onclick="listview"><img src="images/list_icon.png" alt=""></button>
+<!--List button-->
+            <button id="listbTn" class="listbtn" onclick="listview()"><img src="images/list_icon.png" alt=""></button>
         </div>
-        
-        <div class="localbusiness-cards"></div>
 
+<!--Grid view-->
+        <div id="business-cards" class="localbusiness-cards"></div>
+
+<!--List view-->
         <table class="directorytable">
-            <tbody class="localbusiness-list"></tbody>
+            <tbody id="business-list" class="localbusiness-list"></tbody>
         </table>
     </main>
 

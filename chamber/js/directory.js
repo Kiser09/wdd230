@@ -1,7 +1,7 @@
 const requestURL = 'https://kiser09.github.io/wdd230/chamber/data/data.json';
 
-const cards = document.querySelector('.localbusiness-cards');
-const lists = document.querySelector('.localbusiness-list');
+const cards = document.querySelector('#business-cards');
+const lists = document.querySelector('#business-list');
 
 fetch(requestURL)
     .then(function (response) {
@@ -75,8 +75,18 @@ fetch(requestURL)
     }
 
     //View Functions for list and grid
+    function gridview() {
+        var grid = document.querySelector("#business-cards");
+        grid.style.display = "grid";
 
-     function listview() {
-        var element = document.getElementById("localbusiness-list");
-        element.classList.toggle("../css/base.css", "../css/medium.css", "../css/large.css");
-     }
+        var list = document.querySelector(".directorytable");
+        list.style.display = "none";
+    }
+
+    function listview() {
+        var grid = document.querySelector("#business-cards");
+        grid.style.display = "none";
+
+        var list = document.querySelector(".directorytable");
+        list.style.display = "table";
+    }
