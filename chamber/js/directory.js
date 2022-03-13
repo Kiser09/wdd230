@@ -75,10 +75,6 @@ fetch(requestURL)
     }
 
     //View Functions for list and grid
-    function gridview() {
-        var element = document.getElementById("localbusiness-cards");
-        element.classList.toggle("mystyle");
-     }
 
      function listview() {
         var element = document.getElementById("localbusiness-list");
