@@ -99,6 +99,10 @@
     font-size: 1.2rem;
     }
 
+    .discovermain{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
 /*******************Join Page**********************/   
 form{
     max-width: 960px;
