@@ -486,3 +486,7 @@ form legend{
 .localbusiness-list tr:nth-child(even){
     background-color: cyan;
 }
+
+.lastvisit{
+    margin-left: 2%;
+}
