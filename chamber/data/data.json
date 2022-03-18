@@ -5,84 +5,96 @@
             "address": "1252 CandyCane Rd, North Pole Alaska 99705",
             "phone": "(907)-999-9999",
             "website": "http://www.heartfireak.com",
-            "logo": "images/heartfirelarge.webp"
+            "logo": "images/heartfirelarge.webp",
+            "membership": "gold"
         },
         {
             "name": "Johnson's Flooring",
             "address": "2222 Sleigh Ride Dr, North Pole Alaska 99705",
             "phone": "(907)-123-4567",
             "website": "http://www.johnsonsflooring.com",
-            "logo": "images/johnsonflooringlarge.webp"
+            "logo": "images/johnsonflooringlarge.webp",
+            "membership": "bronze"
         },
         {
             "name": "Santa's Elves Home Repair",
             "address": "3525 Mistletoe Ave, North Pole Alaska 99705",
             "phone": "(907)-459-5656",
             "website": "http://www.elveshomerepair.com",
-            "logo": "images/santaelveslarge.webp"
+            "logo": "images/santaelveslarge.webp",
+            "membership": "bronze"
         },
         {
             "name": "YouCanDIY",
             "address": "1020 Aurora Ave, North Pole Alaska 99705",
             "phone": "(907)-222-2222",
             "website": "http://www.youcandiy.com",
-            "logo": "images/youcandiy.webp"
+            "logo": "images/youcandiy.webp",
+            "membership": "Gold"
         },
         {
             "name": "Thor's Electrical",
             "address": "1010 Red Nose Ln, North Pole Alaska 99705",
             "phone": "(907)-333-4415",
             "website": "http://www.thorselectrical.com",
-            "logo": "images/thorselectrical.webp"
+            "logo": "images/thorselectrical.webp",
+            "membership": "silver"
         },
         {
             "name": "Pawfect Manners Dog Training",
             "address": "3525 Wildwood Dr, North Pole Alaska 99705",
             "phone": "(907)-888-8888",
             "website": "http://www.pawfectmanners.com",
-            "logo": "images/pawfectmanners.webp"
+            "logo": "images/pawfectmanners.webp",
+            "membership": "silver"
         },
         {
             "name": "Nuts N Bolts",
             "address": "1131 Mistletoe Ave, North Pole Alaska 99705",
             "phone": "(907)-123-1235",
             "website": "http://www.nutsnbolts.com",
-            "logo": "images/nutsnbolts.webp"
+            "logo": "images/nutsnbolts.webp",
+            "membership": "bronze"
         },
         {
             "name": "Patriot Firearms",
             "address": "2023 Red Nose Ln, North Pole Alaska 99705",
             "phone": "(907)-456-5622",
             "website": "http://www.patriotfirearms.com",
-            "logo": "images/patriotfirearms.webp"
+            "logo": "images/patriotfirearms.webp",
+            "membership": "gold"
         },
         {
             "name": "McFly's Automotive",
             "address": "2232 Future Rd, North Pole Alaska 99705",
             "phone": "(907)-111-5555",
             "website": "http://www.mcflysauto.com",
-            "logo": "images/mcflyautomotive.webp"
+            "logo": "images/mcflyautomotive.webp",
+            "membership": "silver"
         },
         {
             "name": "Epona's Animal Boarding",
             "address": "4251 Santa Dr, North Pole Alaska 99705",
             "phone": "(907)-852-8521",
             "website": "http://www.eponaboarding.com",
-            "logo": "images/eponaboard.webp"
+            "logo": "images/eponaboard.webp",
+            "membership": "gold"
         },
         {
             "name": "Artemis Bow & Range",
             "address": "3030 Comet Ave, North Pole Alaska 99705",
             "phone": "(907)-333-3525",
             "website": "http://www.artemisbow.com",
-            "logo": "images/artemis.webp"
+            "logo": "images/artemis.webp",
+            "membership": "bronze"
         },
         {
             "name": "Midnight Sun Gaming",
             "address": "2083 Dasher Rd, North Pole Alaska 99705",
             "phone": "(907)-265-8888",
             "website": "http://www.midnightsungaming.com",
-            "logo": "images/midnightsungaming.webp"
+            "logo": "images/midnightsungaming.webp",
+            "membership": "silver"
         }
     ]
 }
