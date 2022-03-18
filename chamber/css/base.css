@@ -114,6 +114,11 @@ header p{
     color: darkblue;
 }
 
+#currentdate{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
 /*Main/Body*/
 .indexgrid{
     display: block;
@@ -443,7 +448,7 @@ form legend{
 .localbusiness-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    max-width: 1050px;
+    max-width: 1300px;
     margin: 0 auto;
     grid-gap: 2px;
     border: 2px solid black;

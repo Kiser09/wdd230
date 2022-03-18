@@ -27,74 +27,76 @@
 
 </head>
 <body>
-    <header>
-        <!--Logo pictuer with home navigation height 150px-->
-        <a href="index.html">
-            <img class="logo" src="images/headersclogo.webp" alt="SC logo">
-        </a> 
-                
-        <h3 class="bannerheader">Santa's Chamber of Commerce</h3>
-        <!--Navigation: active class displays the active page. See base.css page for use-->
-                <nav>
-                    <button id="menubtn"><span>&#9776;</span><span>x</span></button>
-                    <ul id="primarynav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li class="active"><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-        <!--Social media icons-->
-                <div class="social">
-                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
-                    <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
-                </div>
-        <!--Date and year for header-->
-                <p id="currentdate" ></p>
-    </header>
+    <div id="content"><!--content class used for page margins in CSS-->
+        <header>
+            <!--Logo pictuer with home navigation height 150px-->
+            <a href="index.html">
+                <img class="logo" src="images/headersclogo.webp" alt="SC logo">
+            </a> 
+                    
+            <h3 class="bannerheader">Santa's Chamber of Commerce</h3>
+            <!--Navigation: active class displays the active page. See base.css page for use-->
+                    <nav>
+                        <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                        <ul id="primarynav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li class="active"><a href="directory.html">Directory</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+            <!--Social media icons-->
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
+                        <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
+                    </div>
+            <!--Date and year for header-->
+                    <p id="currentdate" ></p>
+        </header>
+        
     
-
-    <main>
-        <h1 class="directoryheader">Member Directory</h1>
-<!--Grid button-->
-        <div class="buttongrid">
-            <button id="gridbTn" class="gridbtn" onclick="gridview()"><img src="images/grid_icon.png" alt="grid icon"></button>
-
-<!--List button-->
-            <button id="listbTn" class="listbtn" onclick="listview()"><img src="images/list_icon.png" alt=""></button>
-        </div>
-
-<!--Grid view-->
-        <div id="business-cards" class="localbusiness-cards"></div>
-
-<!--List view-->
-        <table class="directorytable">
-            <tbody id="business-list" class="localbusiness-list"></tbody>
-        </table>
-    </main>
-
-    <!--Footer Section-->    
-    <footer>
-        <!--logo image-->
-                <picture class="footerlogo">
-                    <img src="images/headerlogo225width.webp" alt="SC logo">
-                </picture>
-        <!--Chamber of Commerce address (not real)-->
-                <ul class="SC-address">
-                    <li>Santa's Chamber of Commerce </li>
-                    <li>1234 Mistletoe Dr</li>
-                    <li>North Pole, AK 99705</li>
-                </ul>
-        <!--contact information-->
-                <ul class="contact-map">
-                    <li>info@Santascommerce.com</li>
-                    <li>(907)111-1111</li>
-        <!--link to map location on google maps-->
-                    <li><a href="https://goo.gl/maps/V6sio2XM7eh8wFaa9"><img src="images/mappin.png" alt="map pin">Map Location</a></li>
-                </ul>
-         <!--Last modified footer-->
-                <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Santa's Commerce | Blayne Kiser | WDD 230 Project | <span id="lastmod"></span></p>
-    </footer>
+        <main>
+            <h1 class="directoryheader">Member Directory</h1>
+    <!--Grid button-->
+            <div class="buttongrid">
+                <button id="gridbTn" class="gridbtn" onclick="gridview()"><img src="images/grid_icon.png" alt="grid icon"></button>
+    
+    <!--List button-->
+                <button id="listbTn" class="listbtn" onclick="listview()"><img src="images/list_icon.png" alt=""></button>
+            </div>
+    
+    <!--Grid view-->
+            <div id="business-cards" class="localbusiness-cards"></div>
+    
+    <!--List view-->
+            <table class="directorytable">
+                <tbody id="business-list" class="localbusiness-list"></tbody>
+            </table>
+        </main>
+    
+        <!--Footer Section-->    
+        <footer>
+            <!--logo image-->
+                    <picture class="footerlogo">
+                        <img src="images/headerlogo225width.webp" alt="SC logo">
+                    </picture>
+            <!--Chamber of Commerce address (not real)-->
+                    <ul class="SC-address">
+                        <li>Santa's Chamber of Commerce </li>
+                        <li>1234 Mistletoe Dr</li>
+                        <li>North Pole, AK 99705</li>
+                    </ul>
+            <!--contact information-->
+                    <ul class="contact-map">
+                        <li>info@Santascommerce.com</li>
+                        <li>(907)111-1111</li>
+            <!--link to map location on google maps-->
+                        <li><a href="https://goo.gl/maps/V6sio2XM7eh8wFaa9"><img src="images/mappin.png" alt="map pin">Map Location</a></li>
+                    </ul>
+             <!--Last modified footer-->
+                    <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Santa's Commerce | Blayne Kiser | WDD 230 Project | <span id="lastmod"></span></p>
+        </footer>
+    </div>
 </body>
 </html>
