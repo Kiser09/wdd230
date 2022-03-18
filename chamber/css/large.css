@@ -120,4 +120,7 @@ form{
 .localbusiness-cards{
     display: grid;
 }
+
+.localbusiness-list td:nth-child(2), .localbusiness-list td:nth-child(3) {
+    display: table-cell;
 }

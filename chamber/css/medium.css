@@ -6,6 +6,14 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .bannerheader{
+        font-size: 1rem;
+    }
+
+    .logo{
+        width: 65%;
+    }
+
 /* Hero btn*/
 
     .hero{
@@ -155,4 +163,21 @@
   .directorytable{
       display: table;
   }
+
+  .localbusiness-list td:nth-child(3) {
+    display: table-cell;
+}
+
+    .localbusiness-list td:nth-child(2){
+        display: none;
+    }
+
+    .localbusiness-list {
+    font-size: 1.25rem;
+}
+
+  .localbusiness-cards section {
+    margin: .5rem;
+    padding: 1rem;
+    }
 }
