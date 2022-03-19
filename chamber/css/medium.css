@@ -180,4 +180,14 @@
     margin: .5rem;
     padding: 1rem;
     }
+
+/***************Contact Us**********************/  
+.cform-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(320px, 1fr));
+} 
+
+.cInfo{
+    grid-column: 2;
+}
 }

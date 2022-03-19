@@ -51,39 +51,37 @@
                     <p id="currentdate" ></p>
         </header>
         <main>
-            <h2>Our Contact Information</h2>
+            <h1 class="contactheading">Our Contact Information</h1>
             <div class="contactGrid">
-            <section class="cInfo">
-                <div class="cAddress">
-                    <h4>Address:</h4>
-                    <ul class="contactList">
-                        <li>Santa's Chamber of Commerce</li>
-                        <li>1234 Mistletoe Dr</li>
-                        <li>North Pole, AK 99705</li>
-                    </ul>
-                </div>
-                <div class="cPhone">
-                    <h4>Phone:</h4>
-                    <ul class="contactList"><li>(907)111-1111</li></ul>
-                </div>
-                <div class="cEmail">
-                    <h4>Email:</h4>
-                    <ul class="contactList"><li>info@santascommerce.com</li></ul>
-                </div>
-                <div class="map">
-                    <h4>Santa Clause House</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.6121269453672!2d-147.3456813837026!3d64.75507508387403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d4f91f3e801%3A0x2840219de72fedd1!2sSanta%20Claus%20House!5e0!3m2!1sen!2sus!4v1647713912710!5m2!1sen!2sus" width="500" height="300" style="border:1px solid darkblue;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </section>
-
             <form action="get" action="thankyou.html" class="formSize">
                 <fieldset>
                     <legend>Contact Us</legend>
-                    <label class="ltalign">First Name*<input type="text" name="fname" required></label>
+                    <div class="cform-grid">
+                        <div class="cForm">
+                            <label class="ltalign">First Name*<input type="text" name="fname" required></label>
                     <label class="ltalign">Last Name*<input type="text" name="lname" required></label>
                     <label class="ltalign">Email*<input type="email" name="email" placeholder="scchamberofcommerce@gmail.com" required></label>
                     <label for="description" class="ltalign bdGrid">Question or Concern*
-                    <textarea name="description" id="description" cols="50" rows="10" placeholder="Describe your concerns." class="ltalign"></textarea></label>
+                    <textarea name="description" id="description" cols="40" rows="10" placeholder="Describe your concerns." class="ltalign"></textarea></label>
+                        </div>
+
+                    <div class="cInfo">
+                        <h2>Address:</h2>
+                        <ul class="contactList">
+                            <li>Santa's Chamber of Commerce</li>
+                            <li>1234 Mistletoe Dr</li>
+                            <li>North Pole, AK 99705</li>
+                        </ul>
+                    
+                        <h2>Phone:</h2>
+                        <ul class="contactList"><li>(907)111-1111</li></ul>
+                    
+                        <h2>Email:</h2>
+                        <ul class="contactList"><li>info@santascommerce.com</li></ul>
+                        <h2>Santa Clause House</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.6121269453672!2d-147.3456813837026!3d64.75507508387403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d4f91f3e801%3A0x2840219de72fedd1!2sSanta%20Claus%20House!5e0!3m2!1sen!2sus!4v1647713912710!5m2!1sen!2sus" class="map" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    </div>
 
                     <input type="submit" value = "Contact Us" class="submitBtn">
                 </fieldset>
