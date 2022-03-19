@@ -313,8 +313,8 @@ footer p{
 
 .discoverheading{
     display: block;
-    background-image: url('../images/background2.webp');
-    color: darkblue;
+    color: darkred;
+    text-align: center;
     border-radius: 15px;
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -362,8 +362,8 @@ form fieldset{
 }
 
 .joinheader{
-    color: darkblue;
-    margin-left: 3%;
+    color: darkred;
+    text-align: center;
 }
 
 form legend{
@@ -384,14 +384,14 @@ form legend{
     border-radius: 5px;
 }
 
-.ltalign, form div{
+.ltalign, form div, .txtreq{
     display: block;
     padding-top: .8rem;
     font-size: 1rem;
     color: darkblue;
 }
 
-.ltalign input{
+.ltalign input, .txtreq textarea{
     display: block;
     font-size: 1rem;
     border: solid 1px lightgrey;
@@ -401,11 +401,11 @@ form legend{
     background-color: rgba(0,0,0,.1);
 }
 
-.ltalign input:required{
+.ltalign input:required, .txtreq textarea:required{
     border: red solid 3px;  
 }
 
-.ltalign input:required:valid{
+.ltalign input:required:valid, .txtreq textarea:required:valid{
     border: green solid 3px;
 }
 
