@@ -24,7 +24,93 @@
 </head>
 <body>
     <div id="content">
-        <form action=""></form>
+        <header>
+            <!--Logo pictuer with home navigation height 150px-->
+            <a href="index.html">
+                <img class="logo" src="images/headersclogo.webp" alt="SC logo">
+            </a>
+                    
+                    <h3 class="bannerheader">Santa's Chamber of Commerce</h3>
+            <!--Navigation: active class displays the active page. See base.css page for use-->
+                    <nav>
+                        <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                        <ul id="primarynav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            <!--Social media icons-->
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
+                        <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
+                    </div>
+            <!--Date and year for header-->
+                    <p id="currentdate" ></p>
+        </header>
+        <main>
+            <h2>Our Contact Information</h2>
+            <div class="contactGrid">
+            <section class="cInfo">
+                <div class="cAddress">
+                    <h4>Address:</h4>
+                    <ul class="contactList">
+                        <li>Santa's Chamber of Commerce</li>
+                        <li>1234 Mistletoe Dr</li>
+                        <li>North Pole, AK 99705</li>
+                    </ul>
+                </div>
+                <div class="cPhone">
+                    <h4>Phone:</h4>
+                    <ul class="contactList"><li>(907)111-1111</li></ul>
+                </div>
+                <div class="cEmail">
+                    <h4>Email:</h4>
+                    <ul class="contactList"><li>info@santascommerce.com</li></ul>
+                </div>
+                <div class="map">
+                    <h4>Santa Clause House</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.6121269453672!2d-147.3456813837026!3d64.75507508387403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d4f91f3e801%3A0x2840219de72fedd1!2sSanta%20Claus%20House!5e0!3m2!1sen!2sus!4v1647713912710!5m2!1sen!2sus" width="500" height="300" style="border:1px solid darkblue;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <form action="get" action="thankyou.html" class="formSize">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="ltalign">First Name*<input type="text" name="fname" required></label>
+                    <label class="ltalign">Last Name*<input type="text" name="lname" required></label>
+                    <label class="ltalign">Email*<input type="email" name="email" placeholder="scchamberofcommerce@gmail.com" required></label>
+                    <label for="description" class="ltalign bdGrid">Question or Concern*
+                    <textarea name="description" id="description" cols="50" rows="10" placeholder="Describe your concerns." class="ltalign"></textarea></label>
+
+                    <input type="submit" value = "Contact Us" class="submitBtn">
+                </fieldset>
+            </form>
+        </div>
+    </main>
     </div>
+    <footer>
+        <!--logo image-->
+                <picture class="footerlogo">
+                    <img src="images/headerlogo225width.webp" alt="SC logo">
+                </picture>
+        <!--Chamber of Commerce address (not real)-->
+                <ul class="SC-address">
+                    <li>Santa's Chamber of Commerce </li>
+                    <li>1234 Mistletoe Dr</li>
+                    <li>North Pole, AK 99705</li>
+                </ul>
+        <!--contact information-->
+                <ul class="contact-map">
+                    <li>info@Santascommerce.com</li>
+                    <li>(907)111-1111</li>
+        <!--link to map location on google maps-->
+                    <li><a href="https://goo.gl/maps/V6sio2XM7eh8wFaa9"><img src="images/mappin.png" alt="map pin">Map Location</a></li>
+                </ul>
+         <!--Last modified footer-->
+                <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Santa's Commerce | Blayne Kiser | WDD 230 Project | <span id="lastmod"></span></p>
+    </footer>
 </body>
 </html>

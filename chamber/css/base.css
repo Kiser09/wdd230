@@ -6,10 +6,13 @@
 body{
     font-family:"EB Garamond", "Garamond", serif;
     margin: 1% 2% 1% 2%;
+    color: darkblue;
+    background-image: url('../images/titlebackground.webp');
 }
 
 h1, h2, h3, h4, th, nav, footer p{
     font-family: "Lobster", "Lucida Handwriting", cursive;
+    color: darkred;
 }
 /* Event Banner */
 #eventbanner{
@@ -244,6 +247,10 @@ article h3, .spotlight section h4, section h3{
     margin-top: .5rem;
 }
 
+.spotlightheader{
+    display: none;
+}
+
 /* border lines in the spotlight sections*/
 .solid{
     border-top: 3px solid rgba(0,0,0,.5);
@@ -253,6 +260,10 @@ article h3, .spotlight section h4, section h3{
 /* Join CSS*/
 
 .join {
+    display: none;
+}
+
+.joinusHeader{
     display: none;
 }
 
@@ -424,7 +435,7 @@ form legend{
 
 .directoryheader{
     text-align: center;
-    color: darkblue;
+    color: darkred;
 }
 
 .buttongrid{
@@ -508,4 +519,40 @@ form legend{
 
 .lastvisit{
     margin-left: 2%;
+}
+/********************Contact Us********************/
+
+.formSize{
+    max-width: 1000px;
+    grid-column: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.formSize fieldset{
+    margin-top: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.contactGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cInfo{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkblue;
+}
+
+.contactList{
+    list-style-type: none;
+}
+
+.map{
+    align-self: center;
+    padding-bottom: 2%;
 }
