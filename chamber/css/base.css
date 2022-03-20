@@ -234,17 +234,25 @@ article h3, .spotlight section h4, section h3{
     flex-direction: column;
 }
 
-.spotlight section:nth-child(3){
+#spotlight3{
     display: none;
 }
 
-.spotlight section p, .spotlight section picture, .spotlight section h4{
+.spotlight section p, .spotlight section picture, .spotlight section h3{
     justify-self: center;
     align-self: center;
+    margin: 1% 0 1% 0;
+    text-align: center;
 }
 
 .spotlight img{
+    align-self: center;
     margin-top: .5rem;
+    max-width: 220px;
+    max-height: 180px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .spotlightheader{

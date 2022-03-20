@@ -70,15 +70,15 @@
           grid-row: span 3;
       }
 
-      .spotlight section:nth-child(1){
+      #spotlight1{
           grid-row: 1;
       }
 
-      .spotlight section:nth-child(2){
+      #spotlight2{
           grid-row: 2;
       }
 
-      .spotlight section:nth-child(3){
+      #spotlight3{
           grid-row: 3;
           display: flex;
       }
