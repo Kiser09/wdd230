@@ -129,9 +129,9 @@ header p{
     padding-top: .5rem;
 }
 
-article, section{
+article, section, .spotlight{
     background-color: #F5F5DC;
-    border: 1px solid black;
+    border: 1px solid darkblue;
     margin-bottom: .5rem;
 }
 
@@ -226,6 +226,7 @@ article h3, .spotlight section h4, section h3{
 .spotlight{
     display: block;
     padding: .2rem;
+    margin-bottom: 0;
 }
 
 .spotlight section{
@@ -234,7 +235,7 @@ article h3, .spotlight section h4, section h3{
     flex-direction: column;
 }
 
-#spotlight3{
+#spotlight section:nth-child(3){
     display: none;
 }
 

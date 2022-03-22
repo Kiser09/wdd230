@@ -2,7 +2,11 @@
 
 const requestURL = 'https://kiser09.github.io/wdd230/chamber/data/data.json';
 
-const spaceFilled = 0
+let spotlight1 = document.querySelector('#spotlight1');
+let spotlight2 = document.querySelector('#spotlight2');
+let spotlight3 = document.querySelector('#spotlight3');
+let section = document.querySelector('#spotlight')
+let spaceFilled = 0;
 
 fetch(requestURL)
     .then(function (response) {
@@ -16,32 +20,35 @@ fetch(requestURL)
         shuffledList.forEach(spaces)
     });
 
-    function spaces(biz) {
+    function spaces(business) {  // Create elements to add to the document
         if (spaceFilled == 3)
             return;
         else {
             if (spaceFilled == 0) {
-                let bizCard = document.querySelector('#spotlight1');
-                buildSpotlight(biz, bizCard);
+                let biz = document.querySelector('#spotlight1');
+                buildSpotlight(business, biz);
             }
             if (spaceFilled == 1) {
-                let bizCard = document.querySelector('#spotlight2');
-                buildSpotlight(biz, bizCard);
+                let biz = document.querySelector('#spotlight2');
+                buildSpotlight(business, biz);
             }
             if (spaceFilled == 2) {
-                let bizCard = document.querySelector('#spotlight3');
-                buildSpotlight(biz, bizCard);
+                let biz = document.querySelector('#spotlight3');
+                buildSpotlight(business, biz);
             }
             spaceFilled++;
         }
     } 
 
-    function buildSpotlight(company, bizCard) {
+    function buildSpotlight(company, index) {
+        let bizCard = document.createElement('section')
         let h4 = document.createElement('h3');
         let img = document.createElement('img');
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let site = document.createElement('p');
+
+        bizCard.setAttribute('class', `spot${index}`);
 
         //text for businesses
         h4.textContent = `${company.name}`;
@@ -53,6 +60,7 @@ fetch(requestURL)
         img.setAttribute('src', company.logo);
         img.setAttribute('loading', 'lazy');
         img.setAttribute('alt', `${company.name} logo`);
+        img.setAttribute('class', 'logo');
 
         bizCard.appendChild(h4);
         bizCard.appendChild(img);
@@ -60,4 +68,5 @@ fetch(requestURL)
         bizCard.appendChild(address);
         bizCard.appendChild(site);
         
+        section.appendChild(bizCard);
     }
