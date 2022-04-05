@@ -3,7 +3,7 @@
 const requestURL = 'https://kiser09.github.io/wdd230/temple/data/temples.json';
 
 let spotlight1 = document.querySelector('#spotlight1');
-let section = document.querySelector('#spotlight')
+let section = document.querySelector('#templespotlight')
 let spaceFilled = 0;
 
 fetch(requestURL)
@@ -46,7 +46,7 @@ fetch(requestURL)
         address.textContent = `${temple.address}`;
         phone.textContent = `${temple.phone}`;
         li.textContent = `${temple.history}`
-        site.innerHTML = `<a href="${temple.url}">${company.url}</a>`;
+        site.innerHTML = `<a href="${temple.url}">${temple.url}</a>`;
 
         //image js
         img.setAttribute('src', temple.image);
