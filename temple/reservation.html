@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond&display=swap" rel="stylesheet">
+
+    <!--Brief description of webpage content/ Tab Title-->
+    <meta name="description" content="Reservation form ">
+
+    <title>Reservation</title>
+
+    <!--CSS style sheets for different media queries-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="jesusicon" href="jesuschristbrazil.ico">
+
+    <!--JavaScript page links for the dates and hamburger menus-->
+    <script defer src="js/lastmod.js"></script>
+
+</head>
+<body>
+    <div id="content"><!--content class used for page margins in CSS-->
+        <header>
+            <!--Navigation: active class displays the active page. See base.css page for use-->
+            <nav>
+                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primarynav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Temples.html">Temples</a></li>
+                    <li><a href="Amenities.html">Amenities</a></li>
+                    <li class="active"><a href="Reservation.html">Reservation</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+<!--Social media icons-->
+            <div class="social">
+                <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
+            </div>
+        </header>
+        <main></main>
+        <footer>
+            <picture class="footerlogo">
+                <img src="images/headerlogo225width.webp" alt="SC logo">
+            </picture>
+<!--Chamber of Commerce address (not real)-->
+            <ul class="location">
+                <li>Temple Inn & Suites </li>
+                <!--Google Embedded Map-->
+                <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701326!2d-77.09772048467035!3d38.98325177955747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649134278885!5m2!1sen!2sus" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                <li>4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+            </ul>
+<!--contact information-->
+            <ul class="contact">
+                <li>Contact us:</li>
+                <li>reservation@templeinn.com</li>
+                <li>(888)111-1111</li>
+            </ul>
+<!--Last modified footer-->
+            <p><span class="copy-right">&copy;</span><span id="currentyear"></span>| Temple Inn & Suites | Blayne Kiser | <span id="lastmod"></span></p>
+        </footer>
+    </div>
+</body>
+</html>
