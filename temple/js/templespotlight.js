@@ -2,7 +2,6 @@
 
 const requestURL = 'https://kiser09.github.io/wdd230/temple/data/temples.json';
 
-let spotlight1 = document.querySelector('#spotlight1');
 let section = document.querySelector('#templespotlight')
 let spaceFilled = 0;
 
@@ -22,7 +21,7 @@ fetch(requestURL)
             return;
         else {
             if (spaceFilled == 0) {
-                let card = document.querySelector('#spotlight1');
+                let card = document.querySelector('#templespotlight');
                 buildSpotlight(temple, card);
             }
             spaceFilled++;
