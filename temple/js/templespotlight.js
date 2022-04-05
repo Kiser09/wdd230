@@ -2,7 +2,7 @@
 
 const requestURL = 'https://kiser09.github.io/wdd230/temple/data/temples.json';
 
-let section = document.querySelector('#templespotlight')
+let section = document.querySelector('#templeSpotlight')
 let spaceFilled = 0;
 
 fetch(requestURL)
@@ -21,7 +21,7 @@ fetch(requestURL)
             return;
         else {
             if (spaceFilled == 0) {
-                let card = document.querySelector('#templespotlight');
+                let card = document.querySelector('#templeSpotlight');
                 buildSpotlight(temple, card);
             }
             spaceFilled++;
@@ -40,7 +40,7 @@ fetch(requestURL)
 
         templeCard.setAttribute('class', `spot${index}`);
 
-        //text for businesses
+        //text
         h3.textContent = `${temple.name}`;
         address.textContent = `${temple.address}`;
         phone.textContent = `${temple.phone}`;
