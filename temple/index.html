@@ -20,44 +20,107 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="jesusicon" href="jesuschristbrazil.ico">
+    <link rel="templefavicon" href="templelogo.ico">
 
-    <!--JavaScript page links for the dates and hamburger menus-->
+    <!--JavaScript-->
     <script defer src="js/lastmod.js"></script>
+    <script defer src="js/hamburger.js"></script>
 
 </head>
 <body>
     <div id="content"><!--content class used for page margins in CSS-->
+
+<!----------------------------------------------------------------Header------------------------------------------------------------------------->
         <header>
+            <!--Logo pictuer with home navigation height 100px-->
+            <section class="bannerLogo">
+                <a href="index.html" class="imgAnchor">
+                    <img class="logo" src="images/templelogo100px.webp" alt="Temple Innes & Suites Logo">
+                </a>
+                    
+    
+                <h3 class="bannerheader">Temple Inn & Suites</h3>
+            </section>
+
             <!--Navigation: active class displays the active page. See base.css page for use-->
-            <nav>
-                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
-                <ul id="primarynav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="Temples.html">Temples</a></li>
-                    <li><a href="Amenities.html">Amenities</a></li>
-                    <li><a href="Reservation.html">Reservation</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <button id="menubtn">
+                <span>&#9776;</span>
+                <span>x</span>
+            </button>
+            <ul id="primarynav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Temples.html">Temples</a></li>
+                <li><a href="Amenities.html">Amenities</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
 <!--Social media icons-->
             <div class="social">
                 <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
                 <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
             </div>
         </header>
-        <main></main>
+
+<!--------------------------------------------------------------Main Section--------------------------------------------------------------------->
+        <main>
+            <p>Welcome to Temple Inn & Suites helping families come closer together across both sides of the viel. We aim to deliver a comfortable stay by adhering to three principles of the Gospel of Jesus Christ. These Pillars are;
+                <ol>
+                    <li>“Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.” (Matthew 22:37)</li>
+                    <li>“Thou shalt love thy neighbor as thyself.” (Matthew 22:39)</li>
+                    <li>“When ye are in the service of your fellow beings ye are only in the service of your God” (Mosiah 2:17)</li>
+                </ol>
+            </p>
+            <div class="index-grid">
+                <section class="call">
+                    <picture>
+                        <img src="images/hotelimg.webp" sizes="75vw"
+                        srcset="images/hotelimg380px.webp 380w, images/hotelimg500px.webp 500w, images/hotelimg920px.webp 920w" alt="Hawaii Tempel Inn Location">
+                    </picture>
+                    <button class="callActionBTN" onclick="document.location='reservation.html'">Reserve Now</button>
+                </section>
+                <section class="freeAmenities">
+                    <h2>Free Amenities</h2>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>pool</li>
+                        <li>WiFi high-speed internet access and smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple shuttle</li>
+                        <li>Family history consultation and family ordinance card service</li>
+                    </ul>
+                </section>
+                <div class="templeSpotlight" id="templeSpotlight"></div>
+                <div class="weatherThreeDays"></div>
+                <section class="hotelGallery">
+                    <h2>Gallery</h2>
+                    <div class="galleryGrid">
+                        <picture><img src="" alt=""></picture>
+                        <picture><img src="" alt=""></picture>
+                        <picture><img src="" alt=""></picture>
+                        <picture><img src="" alt=""></picture>
+                        <picture><img src="" alt=""></picture>
+                        <picture><img src="" alt=""></picture>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+<!---------------------------------------------------------------Footer-------------------------------------------------------------------------->
         <footer>
             <picture class="footerlogo">
-                <img src="images/headerlogo225width.webp" alt="SC logo">
+                <img src="images/templelogo150px.webp" alt="Temple Innes & Suites Logo">
             </picture>
-<!--Chamber of Commerce address (not real)-->
+<!--Temple Inn HQ Location-->
             <ul class="location">
                 <li>Temple Inn & Suites </li>
-                <!--Google Embedded Map-->
-                <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701326!2d-77.09772048467035!3d38.98325177955747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649134278885!5m2!1sen!2sus" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-                <li>4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+                <li>4800 Montgomery Ln #300,</li>
+                <li> Bethesda, MD 20814</li>
             </ul>
+            <!--Google Embedded Map-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701326!2d-77.09772048467035!3d38.98325177955747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649134278885!5m2!1sen!2sus" width="230" height="80" style="border:1px #583B2B solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!--contact information-->
             <ul class="contact">
                 <li>Contact us:</li>

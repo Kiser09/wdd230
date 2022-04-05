@@ -1,0 +1,185 @@
+/*Margin for the entire page*/
+#content{
+    margin: 0 3% 0 3%;
+}
+
+body{
+    font-family: "Arimo", Arial, Sans-Serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "EB Garamond", Times, serif;
+    color: #B68901;
+}
+
+/**********************************************************Header Beginning**********************************************************************/
+header{
+    display: grid;
+    border: 1px solid #583B2B;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    background-color: #fffff0;
+}
+
+.imgAnchor{
+    max-width:250px;
+}
+
+.logo{
+    border-radius: 15px;
+    border: 1px solid rgba(88,59,43,.3);
+    align-self: center;
+    padding:0;
+    margin: 2% ;
+}
+
+.bannerLogo{
+    display:flex;
+}
+
+.bannerheader{
+    
+    align-self: center;
+    justify-self: center;
+    margin: 0 2% 0 2%;
+}
+
+.social{
+    grid-column: 5;
+    grid-row: 1;
+    padding-top: 3rem;
+    justify-self: center;
+}
+
+/*Navigation*/
+nav{
+    background-color: transparent;
+    grid-column: 4;
+    grid-row: 1;
+    padding-top: 2.5rem;
+    justify-self: start;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "EB Garamond", Times, serif;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #B68901;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+
+nav ul li.active{
+    background-color: rgba(0,0,0,.2);
+}
+
+nav ul li a:hover {
+    background-color: rgba(201, 201, 201, 0.488);
+}
+
+nav ul{
+    display:none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+#menubtn span:nth-child(1) {display: block;}
+#menubtn span:nth-child(2) {display: none;}
+
+#menubtn.open span:nth-child(1) {display: none;}
+#menubtn.open span:nth-child(2) {display: block;}
+/*************************************************************Header End*************************************************************************/
+/************************************************************Footer Beginning********************************************************************/
+footer{
+    display:block;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #583B2B;
+    color: #B68901;
+    font-family: "EB Garamond", Times, serif;
+    background-color: #fffff0;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer p{
+    border-top: 2px solid rgba(0,0,0,.5);
+}
+/**************************************************************Footer End************************************************************************/
+/***************************************************************Index Main***********************************************************************/
+main p{
+    text-align: center;
+}
+
+.index-grid{
+    display:block;
+}
+
+main{
+    margin-bottom: 1%;
+}
+
+.hotelGallery, .weatherThreeDays, .templeSpotlight, .call, .freeAmenities{
+    border: 2px #583B2B solid;
+}
+
+/*Call Section*/
+.call{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.callActionBTN{
+    display: block;
+    grid-column: 3;
+    grid-row: 2;
+    margin:.3rem;
+    background-color: #583B2B;
+    color: #B68901;
+    font-weight: bolder;
+    border: 2px solid #B68901;
+}
+
+.call picture{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+.call picture, .call img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*Free Amenities Section*/
+.freeAmenities h2{
+    text-align: center;
+}
+
+/*Gallery Section*/
+.hotelGallery h2{
+    text-align: center;
+}
+
