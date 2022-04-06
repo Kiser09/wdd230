@@ -116,7 +116,8 @@ footer{
     color: #B68901;
     font-family: "EB Garamond", Times, serif;
     background-color: #fffff0;
-    font-weight: 900;
+    font-weight: 1000;
+    font-size: 1.05rem;
 }
 
 footer ul{
