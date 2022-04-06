@@ -43,7 +43,7 @@ fetch(requestURL)
         announcement.textContent = `Temple was announced on ${temples.announcement}`;
         openHouse.textContent = `Public Open House: ${temples.house}`;
         dedication.textContent = `Temple was dedicated on: ${temples.dedication}`;
-        website.innerhtml = `Website: <a href="${temples.site}">${temples.url}</a>`;
+        website.innerHTML = `Website: <a href="${temples.site}">churchofjesuschrist.org</a>`;
 
         //Temple pictures
         picture.setAttribute('src', `${temples.image}`);
