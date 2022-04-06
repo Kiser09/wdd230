@@ -30,23 +30,30 @@
 <body>
     <div id="content"><!--content class used for page margins in CSS-->
         <header>
-            <!--Logo pictuer with home navigation height 150px-->
-            <a href="index.html">
-                <img class="logo" src="images/templelogo100px.webp" alt="Temple Innes & Suites Logo">
-            </a> 
+            <!--Logo pictuer with home navigation height 100px-->
+            <section class="bannerLogo">
+                <a href="index.html" class="imgAnchor">
+                    <img class="logo" src="images/templelogo100px.webp" alt="Temple Innes & Suites Logo">
+                </a>
+                    
+    
+                <h3 class="bannerheader">Temple Inn & Suites</h3>
+            </section>
 
-            <h3 class="bannerheader">Temple Inn & Suites</h3>
             <!--Navigation: active class displays the active page. See base.css page for use-->
-            <nav>
-                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
-                <ul id="primarynav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="temples.html">Temples</a></li>
-                    <li><a href="amenities.html">Amenities</a></li>
-                    <li><a href="reservation.html">Reservation</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <button id="menubtn">
+                <span>&#9776;</span>
+                <span>x</span>
+            </button>
+            <ul id="primarynav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 <!--Social media icons-->
             <div class="social">
                 <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook logo"></a>
