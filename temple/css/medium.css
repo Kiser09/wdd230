@@ -36,7 +36,7 @@ footer p{
 /***************************************************************Index Main***********************************************************************/
 .index-grid{
     display: grid;
-    grid-template-rows: repeat(5 1fr);
+    grid-template-rows: repeat(5, 1fr);
     
     grid-gap: 2px;
 }
