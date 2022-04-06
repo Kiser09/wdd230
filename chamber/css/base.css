@@ -1,6 +1,7 @@
 /*Margins for the entire page*/
 #content{
     margin: 0 3% 0 3%;
+    max-width: 980px;
 }
 
 body{

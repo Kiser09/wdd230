@@ -1,6 +1,7 @@
 /*Margin for the entire page*/
 #content{
-    margin: 0 3% 0 3%;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 body{
@@ -180,8 +181,6 @@ main{
 }
 
 /*Temple Spotlight Section*/
-
-
 .templeInfo h2{
     margin:1% 0 1% 0;
     text-align: center;
@@ -205,18 +204,14 @@ main{
     margin: .5% 0 .5% 0;
 }
 
-.weatherGrid{
-    display: grid;
-}
-
 .currentDay{
     display: flex;
     flex-direction: column;
 }
 
-.currentDay picture{align-self: center;}
+.currentDay picture, .day2 picture{align-self: center;}
 
-.currentDay h4{
+.currentDay h4, .day2 h4{
     text-align: center;
     margin:1% 0 0 0;
 }
@@ -229,6 +224,11 @@ main{
 .weather{margin-left: 2%;}
 
 .weather h3{margin: 0 1% 0 1%;}
+
+.day2{
+    display: flex;
+    flex-direction: column;
+}
 
 /*Gallery Section*/
 .galleryGrid{
