@@ -77,6 +77,25 @@ footer p{
     grid-row: 3;
 }
 
+/************************************************************************************************************************************************
+                                    Amenities Pages
+************************************************************************************************************************************************/
+
+.services, .amenities{
+    display: grid;
+    grid-template-rows: .3fr 1.8fr 1fr;
+    align-items: center;
+}
+
+.services picture, .amenities picture{
+    grid-row: 2;
+    justify-self: center;
+}
+
+.services h2, .amenities h2{text-align: center;}
+
+.services ul{grid-row: 3;}
+
 
 
 }
