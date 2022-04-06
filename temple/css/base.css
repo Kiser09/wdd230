@@ -262,3 +262,35 @@ main{
 .active{
     background-color: #B68901;
 }
+
+/****************************************************************
+Temple Pages
+**************************************************************/
+
+.templecards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 2px;
+    border: 2px solid #583B2B;
+}
+
+.templecards section{
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+    border: 2px solid #583B2B;
+}
+
+.templecards h2{text-align: center;}
+
+.templecards p{margin: 1% 0 1% 0;}
+
+
+.templecards section img {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 5px;
+    align-self: center;
+}

@@ -29,7 +29,7 @@ fetch(requestURL)
         website.innerHTML = `Website: <a href="${local.website}">${local.website}</a>`;
 
         //image
-        pic.setAttribute('src', local.logo);
+        pic.setAttribute('src', `${local.logo}`);
         pic.setAttribute('loading', 'lazy');
         pic.setAttribute('alt', `${local.name} logo`);
 
