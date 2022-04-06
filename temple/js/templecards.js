@@ -18,19 +18,11 @@ fetch(requestURL)
         let picture = document.createElement('img');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let list1 = document.createElement('ol');
-        let session = document.createElement('li');
-        let list2 = document.createElement('ol');
-        let closure = document.createElement('li');
-        let website = document.createElement('p');
 
         h2.textContent = `${temples.name}`;
         address.textContent = `Address: ${temples.address}`;
         phone.textContent = `Phone: ${temples.phone}`;
         website.innerhtml = `Website: <a href="${temples.url}">${temples.url}</a>`;
-
-
-        
 
         //Temple pictures
         picture.setAttribute('src',temples.image);

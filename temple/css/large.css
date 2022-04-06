@@ -45,6 +45,16 @@
     grid-row: 4;
   }
 
+  .templeSpotlight{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.templeInfo{
+    display: flex;
+    flex-direction: column;
+}
+
 /*Gallery*/
   .hotelGallery{
       grid-column: 1/5;

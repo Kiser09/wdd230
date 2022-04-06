@@ -25,7 +25,7 @@
     <!--JavaScript-->
     <script defer src="js/lastmod.js"></script>
     <script defer src="js/hamburger.js"></script>
-    <script defer src="js/templespotlight.js"></script>
+    <script defer src="js/weather.js"></script>
 
 </head>
 <body>
@@ -129,16 +129,45 @@
                     <button class="callActionBTN" onclick="document.location='reservation.html'">Reserve Now</button>
                 </section>
                 <div class="templeSpotlight">
-                    <div id="templeSpotlight"></div>
-                    <section class="weather">
-                        <h3>Weather in <span id="cityName"></span></h3>
+                    <section class="templeInfo">
+                        <h2>Anchorage Alaska Temple</h2>
                         <picture>
-                            <img src="" alt="" id="weatherIcon">
+                            <img src="images/anchoragetemple500px.webp" alt="Anchorage Temple">
                         </picture>
-                        <p>Current: <span id="temp"></span></p>
+                        <h3>History</h3>
+                        <ul>
+                            <li>54th edicated temple in operation</li>
+                            <li>Site Dedication: 17 April 1998 by F. Melvin Hammond</li>
+                            <li>Public Open House: 29-31 December 1998</li>
+                            <li>Dedication: 9-10 January 1999 by Gordon B. Hinckley</li>
+                            <li>2nd Public Open House: 27-31 January 2004</li>
+                            <li>Rededication: February 2004 by Gordon B. Hinckley</li>
+                        </ul>
+                    </section>
+
+                    <section class="weather">
+                        <h3>Weather in Anchorage, Alaska</h3>
+                        <div class="weatherGrid">
+                            <div class="currentDay">
+                                <h4>Todays Weather</h4>
+                                <picture>
+                                    <img src="images/templelogo100px.webp" alt="random image" id="weatherIcon" />
+                                </picture>
+                                <p class="wcondition"><span id="condition"></span></p>
+                                <p><strong>Current: </strong><span id="temp"></span> &deg;F</p>
+                            </div>
+                            <div class="dayTwo">
+                                <div class="day2">
+                                    <h4>Todays Weather</h4>
+                                    <picture>
+                                        <img src="images/templelogo100px.webp" alt="random image" id="weatherIconday2" />
+                                    </picture>
+                                    <p class="wcondition2"><span id="condition2"></span></p>
+                                    <p><strong>Current: </strong><span id="temp2"></span> &deg;F</p>
+                            </div>
+                        </div>
                     </section>
                 </div>
-                
             </div>
         </main>
 

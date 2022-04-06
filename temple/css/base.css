@@ -180,24 +180,22 @@ main{
 }
 
 /*Temple Spotlight Section*/
-.templeSpotlight{
-    display: flex;
-}
 
-#templeSpotlight section{
-    display: flex;
-    flex-direction: column;
-}
 
-#templeSpotlight h2{
-    margin:1% 0 1%;
+.templeInfo h2{
+    margin:1% 0 1% 0;
     text-align: center;
 }
 
-#templeSpotlight img{
+.templeInfo h3, .templeInfo ul { margin:1% 2% 1% 2%;}
+
+.templeInfo picture{
+    align-self: center;}
+
+.templeInfo img{
     align-self: center;
-    max-width: 400px;
-    max-height: 180px;
+    max-width: 500px;
+    max-height: 200px;
     height: 100%;
     width: 100%;
     border: 3px solid #583B2B;
@@ -206,6 +204,31 @@ main{
 .templeSpotlight p {
     margin: .5% 0 .5% 0;
 }
+
+.weatherGrid{
+    display: grid;
+}
+
+.currentDay{
+    display: flex;
+    flex-direction: column;
+}
+
+.currentDay picture{align-self: center;}
+
+.currentDay h4{
+    text-align: center;
+    margin:1% 0 0 0;
+}
+
+#weatherIcon{
+    width: 6rem;
+    height: 6rem;
+}
+
+.weather{margin-left: 2%;}
+
+.weather h3{margin: 0 1% 0 1%;}
 
 /*Gallery Section*/
 .galleryGrid{
