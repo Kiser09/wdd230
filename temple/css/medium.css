@@ -36,7 +36,6 @@ footer p{
 /***************************************************************Index Main***********************************************************************/
 .index-grid{
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
     
     grid-gap: 2px;
 }
@@ -63,6 +62,7 @@ footer p{
 .currentDay{
     grid-column: 1;
 }
+
 .day2{grid-column: 2;}
 
 }
