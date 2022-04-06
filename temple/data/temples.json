@@ -9,12 +9,27 @@
 
             "image": "images/anchoragetemple500px.webp",
 
-            "services": ["No clothing rental available", "No Cafeteria available", "No patron housing available", "No distribution center nearby"],
-            "history": [{"Dedicated temple in operation": "54th","Announcement": "4 October 1997", "Groundbreaking and Site Dedication": "17 April 1998 by F. Melvin Hammond", "Orginal Public Open House": "29-31 December 1998", "Dedication":  "9-10 January 1999 by Gordon B. Hinckley", "2nd Public Open House":  "27-31 January 2004", "Rededication": "8 February 2004 by Gordon B. Hinckley"}],
+            "services": "No clothing rental available, No Cafeteria available, No patron housing available, No distribution center nearby",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", {"Monday": "Closed", "Tuesday": "7pm-9pm", "Wednesday": "5:30am-7:30am, 10am-12pm, 7pm-9pm", "Thursday": "10am-12pm, 7pm-9pm", "Firday": "11am-1pm, 6:30pm-10pm", "Saturday": "8am-2pm,", "Sunday": "Closed"}],
+             "dedicated temple in operation": "54th","announcement": "4 October 1997", 
+             
+             "groundbreaking and site dedication": "17 April 1998 by F. Melvin Hammond",
 
-            "closure": ["Monday, 30 May 2022", "Monday, 4 July 2022", "Monday, 5 September 2022", "Monday, 19 September 2022 - Friday, 30 September 2022", "Saturday, 1 October 2022 - Sunday, 2 October 2022", "Thursday, 24 November 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+             "public open house": "29-31 December 1998",
+            
+             "dedication": "9-10 January 1999 by Gordon B. Hinckley", 
+
+             "2nd public open house": "27-31 January 2004, Rededication: February 2004 by Gordon B. Hinckley",
+
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", 
+            
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Monday 30 May 2022, Monday 4 July 2022, Monday 5 September 2022, Monday 19 September 2022 - Friday 30 September 2022, Saturday 1 October 2022 - Sunday 2 October 2022, Thursday 24 November 2022, Saturday 24 December 2022 - Sunday 25 December 2022, Saturday 31 December 2022 - Sunday 1 January 2023",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/anchorage-alaska-temple?lang=eng"
         },
@@ -28,13 +43,27 @@
 
             "image": "images/seattletemple500px.webp",
 
-            "services": ["Clothing rental available", "No Cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "services": "Clothing rental available, No Cafeteria available, No patron housing available, Distribution center nearby",
 
-            "history": [{"Dedicated temple in operation": "19th", "Announcement": "15 November 1975", "Groundbreaking and Site Dedication": "27 May 1978 by Marion G. Romney", "Original Public Open House": "7 October-8 November 1980", "Dedication": "17-21 November 1980 by Spencer W. Kimball"}],
+            "dedicated temple in operation": "19th",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", {"Monday": "Closed", "Tuesday": "5:30am-9pm", "Wednesday": "5:30am-9pm", "Thursday": "8am-9pm", "Firday": "8am-9pm", "Saturday": "6am-9pm,", "Sunday": "Closed"}],
+            "announcement": "15 November 1975",
 
-            "closure": ["Monday, 4 July 2022", "Monday, 8 August 2022 - Monday, 22 August 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+            "groundbreaking and site dedication": "27 May 1978 by Marion G. Romney", 
+
+            "public open house": "7 October-8 November 1980",
+            
+            "dedication": "17-21 November 1980 by Spencer W. Kimball",
+
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", 
+            
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Monday 4 July 2022, Monday 8 August 2022 - Monday 22 August 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022 - Sunday 25 December 2022, Saturday 31 December 2022 - Sunday 1 January 2023",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng"
         },
@@ -48,13 +77,35 @@
 
             "image": "images/laietemple500px.webp",
 
-            "services": ["Clothing rental available", "No Cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "services": "Clothing rental available, No Cafeteria available, No patron housing available, Distribution center nearby",
 
-            "history": [{"Dedicated temple in operation":"5th", "Site Dedication": "1 June 1915 by Joseph F. Smith", "Announcement": "3 October 1915", "Groundbreaking": "8 February 1916,", "Dedication": "27-30 November 1919 by Heber J. Grant", "Original Public Open House": "2-27 May 1978", "Rededication": "13-15 June 1978 by Spencer W. Kimball", " 2nd Public Open House": "22 October-13 November 2010", "2nd Rededication": "21 November 2010 by Thomas S. Monson"}],
+            "dedicated temple in operation": "5th",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", {"Monday": "Closed", "Tuesday": "5:30am-9pm", "Wednesday": "5:30am-9pm", "Thursday": "8am-9pm", "Firday": "8am-9pm", "Saturday": "6am-9pm,", "Sunday": "Closed"}],
+            "site dedication": "1 June 1915 by Joseph F. Smith",
+            
+            "announcement": "3 October 1915",
 
-            "closure": ["Friday, 30 September 2022 (Limited Operations)", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Sunday, 1 January 2023"],
+            "groundbreaking": "8 February 1916",
+
+            "dedication": "27-30 November 1919 by Heber J. Grant", 
+
+            "public open house": "2-27 May 1978", 
+
+            "rededication": "13-15 June 1978 by Spencer W. Kimball", 
+
+            "2nd public open house": "22 October-13 November 2010", 
+
+            "2nd rededication": "21 November 2010 by Thomas S. Monson",
+
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.",
+
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Friday 30 September 2022 (Limited Operations), Saturday 1 October 2022, Thursday 24 November 2022, Friday 23 December 2022 (Limited Operations), Saturday 24 December 2022 - Monday 26 December 2022, Sunday 1 January 2023",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng"
         },
@@ -70,11 +121,25 @@
 
             "services": ["Clothing rental available", "No Cafeteria available", "No patron housing available", "Distribution center nearby"],
 
-            "history": [{"Dedicated temple in operation": "152nd", "Announcement": "4 October 2008", "Groundbreaking and Site Dedication": "17 September 2011 by Henry B. Eyring", "Original Public Open House": "10 August-9 September 2016", "Dedication": "18 September 2016 by Henry B. Eyring"}],
+            "dedicated temple in operation": "152nd",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.", {"Monday": "Closed", "Tuesday": "5:30am-9pm", "Wednesday": "5:30am-9pm", "Thursday": "8am-9pm", "Firday": "8am-9pm", "Saturday": "6am-9pm,", "Sunday": "Closed"}],
+            "announcement": "4 October 2008",
+            
+            "groundbreaking and site dedication": "17 September 2011 by Henry B. Eyring", 
+            
+            "public open house": "10 August-9 September 2016",
+            
+            "dedication": "18 September 2016 by Henry B. Eyring",
 
-            "closure": ["Monday, 21 March 2022 - Monday, 4 April 2022", "Monday, 19 September 2022 - Monday, 3 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022"],
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.",
+
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Monday 21 March 2022 - Monday 4 April 2022, Monday 19 September 2022 - Monday, 3 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022 - Sunday 25 December 2022, Saturday 31 December 2022",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple?lang=eng"
         },
@@ -88,13 +153,27 @@
 
             "image": "images/calgarytemple500px.webp",
 
-            "services": ["No clothing rental available", "No Cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "services": "No clothing rental available, No Cafeteria available, No patron housing available, Distribution center nearby",
 
-            "history": [{"Dedicated temple in operation":"140th", "Announcement": "4 October 2008", "Groundbreaking and Site Dedication": "15 May 2010 by Donald L. Hallstrom", "Original Public Open House": "29 September-20 October 2012", "Dedication": "28 October 2012 by Thomas S. Monson"}],
+            "dedicated temple in operation":"140th",
+            
+            "announcement": "4 October 2008",
+            
+            "groundbreaking and site dedication": "15 May 2010 by Donald L. Hallstrom",
+            
+            "public open house": "29 September-20 October 2012",
+            
+            "dedication": "28 October 2012 by Thomas S. Monson",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information."],
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.",
 
-            "closure": ["Friday, 1 July 2022", "Monday, 5 September 2022 - Monday, 19 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Friday 1 July 2022, Monday 5 September 2022 - Monday 19 September 2022, Saturday 1 October 2022, Saturday 24 December 2022, Saturday 31 December 2022",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/calgary-alberta-temple?lang=eng"
         },
@@ -108,13 +187,27 @@
 
             "image": "images/perthtemple500px.webp",
 
-            "services": ["No clothing rental available", "No Cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "services": "No clothing rental available, No Cafeteria available, No patron housing available, Distribution center nearby",
 
-            "history": [{ "Dedicated temple in operation": "106th", "Announcement": "11 June 1999", "Groundbreaking and Site Dedication": "20 November 1999 by Kenneth Johnson", "Original Public Open House": "28 April-12 May 2001", "Dedication": "20 May 2001 by Gordon B. Hinckley"}],
+            "dedicated temple in operation": "106th",
+            
+            "announcement": "11 June 1999",
+            
+            "groundbreaking and site dedication": "20 November 1999 by Kenneth Johnson",
+            
+            "public open house": "28 April-12 May 2001",
+            
+            "dedication": "20 May 2001 by Gordon B. Hinckley",
 
-            "session": ["PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information."],
+            "session": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCE. All ordinances are available by appointment only. Click the link below for more information.",
 
-            "closure": ["Saturday, 9 April 2022", "Monday, 9 May 2022 - Monday, 23 May 2022", "Saturday, 8 October 2022", "Monday, 31 October 2022 - Monday, 14 November 2022", "Tuesday, 27 December 2022"],
+            "baptism": "Tuesday Thru Saturday, from 6am to 10am, 4pm, to 7pm. Baptisms for the dead happen every hour",
+
+            "endowment": "Tuesday thru Saturday, from 6:30am to 12:30pm and 4pm to 6pm. Endowments happen every two hours.",
+
+            "initiatory": "Tuesday thru Saturday, 7am to 12:30pm and from 4pm to 6pm. Inititory will happen at every 30mins",
+
+            "closure": "Saturday 9 April 2022, Monday 9 May 2022 - Monday 23 May 2022, Saturday 8 October 2022, Monday 31 October 2022 - Monday 14 November 2022, Tuesday 27 December 2022",
 
             "url": "https://www.churchofjesuschrist.org/temples/details/perth-australia-temple?lang=eng"
         }

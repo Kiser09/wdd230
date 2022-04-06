@@ -29,27 +29,31 @@
 
 /*Call to Action*/
 .call{
-    grid-column: 2/4;
-    grid-row: 1/3;
+    grid-column: 1/3;
+    grid-row: 2;
   }
 
+/*Free Amenities*/
   .freeAmenities{
-      grid-column: 1;
-      grid-row: 1/3;
+      grid-column: 3/5;
+      grid-row: 2;
   }
-  
+
+  /*Temple Spotlight*/
   .templeSpotlight{
     grid-column: 1/5;
     grid-row: 4;
   }
 
-  .weatherThreeDays{
-      grid-column: 4;
-      grid-row: 1/3;
-  }
-
+/*Gallery*/
   .hotelGallery{
       grid-column: 1/5;
-      grid-row: 5;
+      grid-row: 3;
+  }
+
+  /*Introduction Paragraph*/
+  .intro{
+      grid-column: 1/5;
+      grid-row: 1;
   }
 }

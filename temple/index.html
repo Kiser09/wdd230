@@ -51,7 +51,7 @@
             </button>
             <ul id="primarynav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="Temples.html">Temples</a></li>
+                <li><a href="temple.html">Temples</a></li>
                 <li><a href="Amenities.html">Amenities</a></li>
                 <li><a href="Reservation.html">Reservation</a></li>
                 <li><a href="Contact.html">Contact</a></li>
@@ -66,21 +66,48 @@
 
 <!--------------------------------------------------------------Main Section--------------------------------------------------------------------->
         <main>
-            <p>Welcome to Temple Inn & Suites helping families come closer together across both sides of the viel. We aim to deliver a comfortable stay by adhering to three principles of the Gospel of Jesus Christ. These Pillars are;
-                <ol>
-                    <li>“Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.” (Matthew 22:37)</li>
-                    <li>“Thou shalt love thy neighbor as thyself.” (Matthew 22:39)</li>
-                    <li>“When ye are in the service of your fellow beings ye are only in the service of your God” (Mosiah 2:17)</li>
-                </ol>
-            </p>
             <div class="index-grid">
-                <section class="call">
-                    <picture>
-                        <img src="images/hotelimg.webp" sizes="75vw"
-                        srcset="images/hotelimg380px.webp 380w, images/hotelimg500px.webp 500w, images/hotelimg920px.webp 920w" alt="Hawaii Tempel Inn Location">
-                    </picture>
-                    <button class="callActionBTN" onclick="document.location='reservation.html'">Reserve Now</button>
+
+                <div class="intro">
+                    <p class="intro">Welcome to Temple Inn & Suites helping families come closer together across both sides of the viel. We aim to deliver a comfortable stay by adhering to three principles of the Gospel of Jesus Christ. These Pillars are;
+                        <ol>
+                            <li>“Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.” (Matthew 22:37)</li>
+                            <li>“Thou shalt love thy neighbor as thyself.” (Matthew 22:39)</li>
+                            <li>“When ye are in the service of your fellow beings ye are only in the service of your God” (Mosiah 2:17)</li>
+                        </ol>
+                    </p>
+                </div>
+
+                <section class="hotelGallery">
+                    <h2>Gallery</h2>
+                    <div>
+                        <div class="galleryGrid">
+                            <div class="picContainer">
+                                <picture class="mySlides"><img src="images/bedroom500px.webp" alt="Hotel Room"></picture>
+                                <picture class="mySlides"><img src="images/indoorpool500px.webp" alt="pool"></picture>
+                                <picture class="mySlides"><img src="images/familyhistory500px.webp" alt="Family History Consultation"></picture>
+                                <picture class="mySlides"><img src="images/hoteldinner500px.webp" alt="Temple Inn Resturanunt"></picture>
+                                <picture class="mySlides"><img src="images/lobby500px.webp" alt="Temple Inn Lobby"></picture>
+                                <picture class="mySlides"><img src="images/gym500px.webp" alt="Temple Inn Gym"></picture>
+                            </div>
+
+                            <div class="slideNav">
+                                <button class="previous" onclick="plusDivs(-1)">&#10094; Prev</button>
+                                <button class="next" onclick="plusDivs(1)">Next &#10095;</button>
+                            </div>
+
+                            <div class="pageNumbers">
+                                <button class="slide" onclick="currentDiv(1)">1</button>
+                                <button class="slide" onclick="currentDiv(2)">2</button>
+                                <button class="slide" onclick="currentDiv(3)">3</button>
+                                <button class="slide" onclick="currentDiv(4)">4</button>
+                                <button class="slide" onclick="currentDiv(5)">5</button>
+                                <button class="slide" onclick="currentDiv(6)">6</button>
+                            </div>
+                        </div>
+                    </div>
                 </section>
+
                 <section class="freeAmenities">
                     <h2>Free Amenities</h2>
                     <ul>
@@ -93,19 +120,19 @@
                         <li>Family history consultation and family ordinance card service</li>
                     </ul>
                 </section>
-                <div class="templeSpotlight" id="templeSpotlight"></div>
-                <div class="weatherThreeDays"></div>
-                <section class="hotelGallery">
-                    <h2>Gallery</h2>
-                    <div class="galleryGrid">
-                        <picture><img src="" alt=""></picture>
-                        <picture><img src="" alt=""></picture>
-                        <picture><img src="" alt=""></picture>
-                        <picture><img src="" alt=""></picture>
-                        <picture><img src="" alt=""></picture>
-                        <picture><img src="" alt=""></picture>
-                    </div>
+                
+                <section class="call">
+                    <picture>
+                        <img src="images/hotelimg.webp" sizes="75vw"
+                        srcset="images/hotelimg380px.webp 380w, images/hotelimg500px.webp 500w, images/hotelimg920px.webp 920w" alt="Hawaii Tempel Inn Location">
+                    </picture>
+                    <button class="callActionBTN" onclick="document.location='reservation.html'">Reserve Now</button>
                 </section>
+                <div class="templeSpotlight">
+                    <div id="templeSpotlight"></div>
+                    <div class="weather"></div>
+                </div>
+                
             </div>
         </main>
 
