@@ -154,10 +154,10 @@ main{
     grid-column: 3;
     grid-row: 2;
     margin:.3rem;
-    background-color: #583B2B;
-    color: #B68901;
+    background-color: #B68901;
+    color: #c9c9c9;
     font-weight: bolder;
-    border: 2px solid #B68901;
+    border: 2px solid #c9c9c9;
 }
 
 .call picture{
@@ -205,14 +205,14 @@ main{
     margin: .5% 0 .5% 0;
 }
 
-.currentDay{
+.currentDay, .day2, .day3{
     display: flex;
     flex-direction: column;
 }
 
-.currentDay picture, .day2 picture{align-self: center;}
+.currentDay picture, .day2 picture, .day3 picture{align-self: center;}
 
-.currentDay h4, .day2 h4{
+.currentDay h3, .day2 h3, .weather h2, .day3 h3{
     text-align: center;
     margin:1% 0 0 0;
 }
@@ -226,10 +226,7 @@ main{
 
 .weather h3{margin: 0 1% 0 1%;}
 
-.day2{
-    display: flex;
-    flex-direction: column;
-}
+
 
 /*Gallery Section*/
 .galleryGrid{
