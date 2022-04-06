@@ -13,8 +13,6 @@ fetch(requestURL)
         const temple = jsonObject['temples'];
         const shuffleList = temple.sort((a, b) => 0.5 - Math.random());
         shuffleList.forEach(spaces);
-
-        document.querySelector('#cityName').textContent = jsonObject.city.toFixed(1);
     });
 
     function spaces(house) {
