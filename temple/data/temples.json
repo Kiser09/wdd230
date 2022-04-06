@@ -5,6 +5,8 @@
 
             "address": "13161 Brayton Dr, Anchorage AK 99516, United States",
 
+            "city": "Anchorage",
+
             "phone": "(907)-348-7890",
 
             "image": "images/anchoragetemple500px.webp",
@@ -39,6 +41,8 @@
 
             "address": "2808 148th Avenue SE, Bellevue, Washington 98007, United States",
 
+            "city": "Seattle",
+
             "phone": "(425)-643-5144",
 
             "image": "images/seattletemple500px.webp",
@@ -72,6 +76,8 @@
             "name": "Laie Hawaii Temple",
 
             "address": "55-600 Naniloa Loop, Laie, Hawaii 96762, United States",
+
+            "city": "Laie",
 
             "phone": "(808)-293-2427",
 
@@ -115,6 +121,8 @@
 
             "address": "1739 Vine Street, Philadelphia, Pennsylvania 19103, United States",
 
+            "city": "Philiadelphia",
+
             "phone": "(215)-398-3040",
 
             "image": "images/philadelphiatemple500px.webp",
@@ -149,6 +157,8 @@
 
             "address": "9802 Rocky Ridge Road NW, Calgary, Alberta  T3G 5J7, Canada",
 
+            "city": "Calgary",
+
             "phone": "(403)-241-4250",
 
             "image": "images/calgarytemple500px.webp",
@@ -182,6 +192,8 @@
             "name": "Perth Australia Temple",
 
             "address": "163-173 Wordsworth Avenue, Yokine, Western Australia  6060, Australia",
+
+            "city": "Yokine"
 
             "phone": "(+61) 8-9276-0000",
 

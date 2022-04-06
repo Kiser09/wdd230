@@ -34,10 +34,6 @@ fetch(requestURL)
         let picture = document.createElement('img');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let list1 = document.createElement('ol');
-        let history = document.createElement('li');
-        let list2 = document.createElement('ol');
-        let closure = document.createElement('li');
         let website = document.createElement('p');
 
         cards.setAttribute('class', `spot${index}`);
@@ -46,7 +42,6 @@ fetch(requestURL)
         address.textContent = `Address: ${temples.address}`;
         phone.textContent = `Phone: ${temples.phone}`;
         website.innerhtml = `Website: <a href="${temples.url}">${temples.url}</a>`;
-        history.textContent = `History: ${temples.history}`
 
         //Temple pictures
         picture.setAttribute('src',temples.image);
@@ -58,9 +53,8 @@ fetch(requestURL)
         cards.appendChild(phone);
         cards.appendChild(address);
         cards.appendChild(website);
-        list1.appendChild(history);
-        list2.appendChild(closure);
-        cards.appendChild(list1);
 
         templecard.prepend(cards);
+
+        document.querySelector('#cityName').textContent = jsObject.city.toFixed(1);
     }
