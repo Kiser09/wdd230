@@ -99,6 +99,8 @@ nav ul{
 
 nav ul.open{
     display: block;
+    position: absolute;
+    background-color: #fffff0;
 }
 
 #menubtn span:nth-child(1) {display: block;}

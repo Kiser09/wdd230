@@ -1,5 +1,10 @@
 /*35em is about 540px at 16px font*/
 @media only screen and (min-width: 35em){
+nav{
+    justify-self: right;
+}
+
+
 /**********************************************************Footer Beginning**********************************************************************/
 footer{
     display: grid;
