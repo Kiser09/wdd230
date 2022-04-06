@@ -258,6 +258,10 @@ main{
     border: 3px solid #583B2B;
 }
 
+.pageNumbers{
+    margin-top: 1%;
+}
+
 .active{
     background-color: #B68901;
 }
