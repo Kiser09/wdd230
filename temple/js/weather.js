@@ -20,7 +20,36 @@ fetch(apiURL)
         const iconsrc= `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
 
         document.querySelector('#weatherIcon').setAttribute('src', iconsrc);
-    
+    });
+
+    fetch(apiURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const weather = jsonObject['daily'];
+        weather.forEach(spaces)
+    });
+
+    function spaces(forcast) {
+        if (spaceFilled == 2)
+            return;
+        else {
+            if (spaceFilled == 0) {
+                let emptySpace = document.querySelector('#templeSpotlight');
+                buildweather(forcast, emptySpace);
+            }
+            if (spaceFilled == 1) {
+                let emptySpace = document.querySelector('#templeSpotlight');
+                buildweather(forcast, emptySpace);
+            }
+            spaceFilled++;
+        }
+    }
+
+    function buildweather(weather, index)
+
     /*Day 2*/
 
     document.querySelector('#temp2').textContent = jsObject.daily.temp[0].day.toFixed(1);
@@ -33,11 +62,9 @@ fetch(apiURL)
         document.querySelector('#condition2').textContent = desc2;
 
         /*The following variable and document selector are to display the icon from the API to the html page.*/
-        const iconsrc2= `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
+        const iconsrc2= `https://openweathermap.org/img/w/${jsObject.daily.weather[0].icon}.png`;
 
         document.querySelector('#weatherIconday2').setAttribute('src', iconsrc2);
 
     /*Day 3*/
-    
-    });
 

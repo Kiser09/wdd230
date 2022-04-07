@@ -1,24 +1,32 @@
 /**Spotlight section JS**/
 
-const requestURL = 'https://kiser09.github.io/wdd230/temple/data/temples.json';
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=61.10566&lon=-149.84357&units=imperial&exclude=minutely,hourly&appid=c3cede631c229fe404795865753b8a97"
 
-let templecard = document.querySelector('#templeSpotlight');
+let templecard = document.querySelector('#weather');
 let spaceFilled = 0;
 
-fetch(requestURL)
+fetch(apiURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        const temple = jsonObject['temples'];
-        const shuffleList = temple.sort((a, b) => 0.5 - Math.random());
-        shuffleList.forEach(spaces);
+        console.table(jsonObject);
+        const weather = jsonObject['daily'];
+        shuffledList.forEach(spaces)
     });
 
     function spaces(house) {
-        if (spaceFilled == 1)
+        if (spaceFilled == 3)
             return;
         else {
+            if (spaceFilled == 0) {
+                let emptySpace = document.querySelector('#templeSpotlight');
+                displayTemples(house, emptySpace);
+            }
+            if (spaceFilled == 0) {
+                let emptySpace = document.querySelector('#templeSpotlight');
+                displayTemples(house, emptySpace);
+            }
             if (spaceFilled == 0) {
                 let emptySpace = document.querySelector('#templeSpotlight');
                 displayTemples(house, emptySpace);
