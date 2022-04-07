@@ -373,3 +373,38 @@ Temple Pages
     font-weight: bolder;
     border: 2px solid #c9c9c9;
 }
+/************************************************************************************************************************************************
+                                    Reception Page
+************************************************************************************************************************************************/
+.packageSection{
+    display: block;
+}
+
+.packageSection h2, .receptionHeader{
+    text-align: center;
+}
+
+.receptionHall, .receptionHall td, .receptionHall th{
+    margin: 0;
+    border: 1px solid #583B2B;
+}
+
+.receptionBanner{
+    width: 100%;
+}
+
+.receptionBanner{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.receptionBanner picture{
+    justify-self: center;
+    width: 75%;
+}
+
+.receptionBanner img{
+    max-height: 250px;
+    width: 100%;
+    border: 3px solid #583B2B;
+}

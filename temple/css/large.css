@@ -109,16 +109,36 @@ Temple Pages
 ************************************************************************************************************************************************/
 .roomGrid{
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
 }
 
 .executiveSuities{
-    grid-column: 3;;
-    justify-self: center;
-    width: 100;
+    grid-column: 3;
 }
 
 .executiveSuities ul{
     align-self: start;
+}
+
+/************************************************************************************************************************************************
+                                    Reception Page
+************************************************************************************************************************************************/
+.packageSection{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.heaven{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.receptionHall{
+    grid-row: 2;
+}
+
+.receptionBTN{
+    grid-row: 3;
 }
 
 }
