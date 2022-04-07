@@ -60,7 +60,45 @@
                 <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
             </div>
         </header>
-        <main></main>
+        <main>
+            <h1 class="contactheading">Contact Information</h1>
+            <div class="contactGrid">
+            <form action="get" action="contactthankyou.html" class="formSize">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <div class="cform-grid">
+                        <div class="cForm">
+                    <label class="ltalign">First Name*<input type="text" name="fname" required></label>
+
+                    <label class="ltalign">Last Name*<input type="text" name="lname" required></label>
+
+                    <label class="ltalign">Email*<input type="email" name="email" placeholder="johndoe@gmail.com" required></label>
+
+                    <label for="description" class="txtreq bdGrid" required>Question or Concern*
+                    <textarea name="description" id="description" cols="30" rows="15" placeholder="Describe your concerns." class="txtreq" required></textarea></label>
+                        </div>
+
+                    <div class="cInfo">
+                        <h2>Address:</h2>
+                        <ul class="contactList">
+                            <li>Temple Inn & Suites</li>
+                            <li>4800 Montgomery Ln #300,</li>
+                            <li>Bethesda, MD 20814</li>
+                        </ul>
+                    
+                        <h2>Phone:</h2>
+                        <ul class="contactList"><li>(888)111-1111</li></ul>
+                    
+                        <h2>Email:</h2>
+                        <ul class="contactList"><li>reservation@templeinn.com</li></ul>
+                    </div>
+                    </div>
+
+                    <input type="submit" value = "Contact Us" class="submitBtn">
+                </fieldset>
+            </form>
+        </div>
+        </main>
         <!---------------------------------------------------------------Footer-------------------------------------------------------------------------->
         <footer>
             <picture class="footerlogo">
