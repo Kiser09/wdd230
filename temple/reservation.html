@@ -60,7 +60,66 @@
                 <a href="https://www.linkedin.com/"><img src="images/linkedinicon.png" alt="linkedin logo"></a>
             </div>
         </header>
-        <main></main>
+        <main>
+            <h1 class="contactfront">Contact Us</h1>
+            <p>All items that are marked by the asterisks (*) are required items to schedule a reservation.</p>
+             <p>If you would like to make reservations for our reception room please the contact tab send us a message or call. </p>
+            <form method="get" action="reservthankyou.html" class="reservationForm">
+                <fieldset>
+                    <legend>Guest Information</legend>
+                    <label class="ltalign">First Name*<input type="text" name="fname" required></label>
+                    <label class="ltalign">Last Name*<input type="text" name="lname" required></label>
+                    <label class="ltalign">Phone*<input type="tel" name="phone" placeholder="9071112222" required></label>
+                    <label class="ltalign">Email*<input type="email" name="email" placeholder="scchamberofcommerce@gmail.com" required></label>
+                    <label class="ltalign">Home State and Country*<input type="text" name="state-country" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <div class="roomtype">
+                    <p class="roomQuestion">What room would you like to stay in?*</p>
+                    <label class="sxs"><input type="radio" name="member" value="junior">Junior Suite</label>
+                
+                    <label class="sxs"><input type="radio" name="member" value="deluxe">Deluxe Suite</label>
+    
+                    <label class="sxs"><input type="radio" name="member" value="executive">Executive Suite</label>
+
+                    <label class="sxs"><input type="radio" name="member" value="honeymoon">Honeymoon Suite</label>
+
+                    <label class="sxs"><input type="radio" name="member" value="missionary">Temple Missionary Suite</label>
+                    </div>
+
+                    <div class="roomDates">
+                        <div>
+                            <label for="checkin" class="ltalign" required>Check-In Date*</label>
+                            <input type="date" class="ltalign inputreq" required>
+
+                            <label for="checkout" class="ltalign" required>Check-out Date*</label>
+                            <input type="date" class="ltalign inputreq" required>
+                        </div>
+                    </div>
+
+                    <div class="stayLocation">
+                        <label class="sxs ltalign" required>Select a location to stay:*</label>
+                        <select id="visitLocation" required>
+                            <option selected disabled>Please Choose an Option</option>
+                            <option value="anchorage">Anchorage, Alaska USA</option>
+                            <option value="calgary">Calgary, Alberta Canada</option>
+                            <option value="perth">Perth, Yokine Australia </option>
+                            <option value="philidelphia">Philadelphia, Pennsylvania USA</option>
+                            <option value="laie">Laie, Hawaii USA</option>
+                            <option value="seattle">Seattle, Washington USA</option>
+                        </select>
+                    </div>
+
+                    <div class="accomodations">
+                        <label for="description" class="txt bdGrid">Special Accomidation:
+                            <textarea name="description" id="description" cols="30" rows="15" placeholder="Describe your concerns." class="txtreq" required></textarea></label>
+                    </div>
+                </fieldset>
+
+            </form>
+        </main>
         <!---------------------------------------------------------------Footer-------------------------------------------------------------------------->
         <footer>
             <picture class="footerlogo">

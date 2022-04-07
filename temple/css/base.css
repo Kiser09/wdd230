@@ -410,7 +410,7 @@ Temple Pages
 }
 
 /************************************************************************************************************************************************
-                                    Contact Us Page
+                                    Froms
 ************************************************************************************************************************************************/
 .contentGrid{
     margin: 0 auto;
@@ -470,6 +470,19 @@ form legend{
     border-radius: 5px;
 }
 
+.roomQuestion, .roomDates p{
+    text-align: left;
+}
+
+.roomDates p{
+    margin: 0;
+}
+
+.sxs{
+    padding: .8rem;
+    font-size: 1rem;
+}
+
 .ltalign, form div, .txtreq{
     display: block;
     padding-top: .8rem;
@@ -486,11 +499,11 @@ form legend{
     background-color: rgba(0,0,0,.1);
 }
 
-.ltalign input:required, .txtreq textarea:required{
+.ltalign input:required, .txtreq textarea:required, .inputreq:required{
     border: red solid 3px;  
 }
 
-.ltalign input:required:valid, .txtreq textarea:required:valid{
+.ltalign input:required:valid, .txtreq textarea:required:valid, .inputreq:required:valid{
     border: green solid 3px;
 }
 
@@ -503,4 +516,15 @@ form legend{
     background-color: #B68901;
     width: 35%;
     max-width: 20rem;
-    font-size: .9rem;}
+    font-size: .9rem;
+}
+
+.txt{
+    display: block;
+    padding-top: .8rem;
+    font-size: 1rem;
+}
+
+.contactfront{
+    text-align: center;
+}
