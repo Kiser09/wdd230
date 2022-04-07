@@ -22,6 +22,8 @@ fetch(apiURL)
         document.querySelector('#weatherIcon').setAttribute('src', iconsrc);
     });
 
+    let weathercard = document.querySelector('#weatherDays')
+
     fetch(apiURL)
     .then(function (response) {
         return response.json();
@@ -48,7 +50,10 @@ fetch(apiURL)
         }
     }
 
-    function buildweather(weather, index)
+    function buildweather(weather, index) {
+        
+        let card
+    }
 
     /*Day 2*/
 
